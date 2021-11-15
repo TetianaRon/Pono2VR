@@ -191,7 +191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 9.95}
+  m_AnchoredPosition: {x: 0, y: 34.549995}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &84724688
@@ -231,7 +231,9 @@ MonoBehaviour:
   m_Text: "<b>\u041F\u041E\u0413\u041B\u042F\u041D\u0422\u0415 \u041D\u0410</b> \u0406\u041D\u0422\u0415\u0420\u0410\u041A\u0422\u0418\u0412\u041D\u042B\u0419
     \u0415\u041B\u0415\u041C\u0415\u041D\u0422, \n<b>\u0417\u0410\u0422\u0418\u0421\u041D\u0406\u0422\u042C
     \u041A\u041B\u0410\u0412\u0406\u0428\u0423 \u0412\u041E\u0413\u041E\u041D\u042C*</b>
-    \u0430\u0431\u0438 \u043E\u0431\u0440\u0430\u0442\u0438\r"
+    \u0430\u0431\u0438 \u043E\u0431\u0440\u0430\u0442\u0438\r\n\n\n\n\n\n\n<b>*\u041B\u0406\u0412\u0410
+    \u041A\u041B\u0410\u0412\u0406\u0428\u0410 \u041C\u0418\u0428\u0406</b> \u0430\u0431\u043E
+    <b>CTRL</b>"
 --- !u!222 &84724689
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -819,7 +821,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 4
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &563393750
 Canvas:
   m_ObjectHideFlags: 0
@@ -977,9 +979,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'some
-
-'
+  m_Text: "\u0420\u043E\u0437\u043F\u043E\u0447\u0430\u0442\u0438"
 --- !u!222 &653153516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1788,14 +1788,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855431569}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 423507110}
   - {fileID: 453955609}
   m_Father: {fileID: 1591880578}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &855431571
 MonoBehaviour:
@@ -1827,42 +1827,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TextComponent: {fileID: 1211322431}
   m_PlatformTextPairs:
-  - m_Platform: 0
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more
-      to be sure,
-
-      then you''re on your own...'
-  - m_Platform: 2
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more
-      to be sure,
-
-      then you''re on your own...
-
-
-
-
-      (<b>HOLD CTRL</b>
-      or the <b>LEFT
-
-      MOUSE BUTTON</b> to select the button)'
   - m_Platform: 7
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more
-      to be sure,
-
-      then you''re on your own...'
-  - m_Platform: 11
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more
-      to be sure,
-
-      then you''re on your own...'
+    m_Text: "\u0426\u0435 <b>\u0414\u0415\u041C\u041E</b> \u0432\u0435\u0440\u0441\u0456\u0457
+      <b>VR</b> \u043F\u0440\u043E\u0433\u0443\u043B\u044F\u043D\u043A\u0438.\n\u041D\u0430\u0441\u043E\u043B\u043E\u0434\u0436\u0443\u0439\u0442\u0435\u0441\u044C
+      \u0432\u0456\u0447\u043D\u043E \u0437\u0435\u043B\u0435\u043D\u0438\u043C\u0438
+      \u043A\u0440\u0430\u0457\u0432\u0438\u0434\u0430\u043C\u0438,\n\u0431\u0435\u0434\u044C
+      \u0434\u0435 \u0442\u0430 \u0431\u0443\u0434\u044C \u043A\u043E\u043B\u0438...\n\n\n\n<b>\u0414\u0415\u041C\u041E</b>
+      \u0432\u0435\u0440\u0441\u0456\u044F\n<b>ComanG</b> 2021\n"
 --- !u!1 &867218951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,17 +2103,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997707814}
-  m_LocalRotation: {x: -0.000000029802322, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6}
-  m_LocalScale: {x: 0.075, y: 0.075, z: 0.075}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1625452490}
-  m_Father: {fileID: 1528763239}
-  m_RootOrder: 2
+  m_Father: {fileID: 1487780014}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 23.835, y: 1.9999995}
   m_SizeDelta: {x: 47.67, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &997707816
@@ -2428,7 +2399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 18}
+  m_AnchoredPosition: {x: 0, y: 42.6}
   m_SizeDelta: {x: 58, y: 18}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1181094017
@@ -2580,18 +2551,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Now you know how to interact with things!
-
-    Let''s try once more to
-    be sure,
-
-    then you''re on your own...
-
-
-
-
-    (<b>HOLD FIE</b> to select
-    the button)'
+  m_Text: "\u0426\u0435 <b>\u0414\u0415\u041C\u041E</b> \u0432\u0435\u0440\u0441\u0456\u0457
+    <b>VR</b> \u043F\u0440\u043E\u0433\u0443\u043B\u044F\u043D\u043A\u0438.\n\u041D\u0430\u0441\u043E\u043B\u043E\u0434\u0436\u0443\u0439\u0442\u0435\u0441\u044C
+    \u0432\u0456\u0447\u043D\u043E \u0437\u0435\u043B\u0435\u043D\u0438\u043C\u0438
+    \u043A\u0440\u0430\u0457\u0432\u0438\u0434\u0430\u043C\u0438,\n\u0431\u0435\u0434\u044C
+    \u0434\u0435 \u0442\u0430 \u0431\u0443\u0434\u044C \u043A\u043E\u043B\u0438...\n\n\n\n<b>\u0414\u0415\u041C\u041E</b>
+    \u0432\u0435\u0440\u0441\u0456\u044F\n<b>ComanG</b> 2021"
 --- !u!222 &1211322432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2620,8 +2585,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.7}
-  m_SizeDelta: {x: 250, y: 150}
+  m_AnchoredPosition: {x: 0, y: 2.3572}
+  m_SizeDelta: {x: 250, y: 213.4707}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1244085695
 GameObject:
@@ -2732,7 +2697,7 @@ Transform:
   m_Children:
   - {fileID: 563393747}
   m_Father: {fileID: 1591880578}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1257493205
 MonoBehaviour:
@@ -2763,48 +2728,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TextComponent: {fileID: 756518352}
   m_PlatformTextPairs:
-  - m_Platform: 11
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s
-      try it!
-
-
-      *<b>The GearVR BACK BUTTON</b>'
-  - m_Platform: 2
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s
-      try it!
-
-
-      *<b>The ESC key</b>'
-  - m_Platform: 0
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s
-      try it!
-
-
-
-      *<b>The ESC key</b>'
   - m_Platform: 7
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s
-      try it!
-
-
-
-      *<b>The ESC key</b>'
+    m_Text: "\u0410\u0411\u0418 \u041F\u041E\u0422\u0420\u0410\u041F\u0418\u0422\u0418
+      \u0414\u041E \u041C\u0415\u041D\u042E <b>\u0412\u0418\u0411\u0420\u0406\u0420
+      \u041C\u0406\u0421\u0422\u0410</b>\n\u041D\u0410\u0422\u0418\u0421\u041D\u0406\u0422\u042C
+      <b> \u041D\u0410\u0417\u0410\u0414*</b> \u0412 \u0411\u0423\u0414\u042C \u042F\u041A\u0418\u0419
+      \u041C\u041E\u041C\u0415\u041DN.\n\u0414\u0430\u0432\u0430\u0439\u0442\u0435
+      \u0440\u043E\u0437\u043F\u043E\u0447\u0435\u043D\u043C\u043E!\n\n\n*<b>\u041A\u043B\u0430\u0432\u0456\u0448\u0430
+      ESC</b>"
 --- !u!1 &1271789582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,7 +2809,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Language
+  m_Text: "\u0412\u0456\u0442\u0430\u0454\u043C\u043E!"
 --- !u!222 &1271789585
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3213,7 +3144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3443,12 +3374,14 @@ RectTransform:
   m_LocalScale: {x: 0.075, y: 0.075, z: 0.075}
   m_Children:
   - {fileID: 1812059125}
+  - {fileID: 997707815}
+  - {fileID: 1876884660}
   m_Father: {fileID: 1528763239}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.6}
+  m_AnchoredPosition: {x: 0, y: 2.11}
   m_SizeDelta: {x: 47.67, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1519263624
@@ -3551,8 +3484,6 @@ Transform:
   m_Children:
   - {fileID: 1244085694}
   - {fileID: 1487780014}
-  - {fileID: 997707815}
-  - {fileID: 1876884660}
   m_Father: {fileID: 1591880578}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3586,24 +3517,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TextComponent: {fileID: 84724688}
   m_PlatformTextPairs:
-  - m_Platform: 0
+  - m_Platform: 17
     m_Text: "<b>\u041F\u041E\u0413\u041B\u042F\u041D\u0422\u0415 \u041D\u0410</b>
       \u0406\u041D\u0422\u0415\u0420\u0410\u041A\u0422\u0418\u0412\u041D\u042B\u0419
       \u0415\u041B\u0415\u041C\u0415\u041D\u0422, \n<b>\u0417\u0410\u0422\u0418\u0421\u041D\u0406\u0422\u042C
       \u041A\u041B\u0410\u0412\u0406\u0428\u0423 \u0412\u041E\u0413\u041E\u041D\u042C*</b>
-      \u0430\u0431\u0438 \u043E\u0431\u0440\u0430\u0442\u0438\r"
-  - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
+      \u0430\u0431\u0438 \u043E\u0431\u0440\u0430\u0442\u0438\r\n\n\n\n\n\n\n<b>*\u041B\u0406\u0412\u0410
+      \u041A\u041B\u0410\u0412\u0406\u0428\u0410 \u041C\u0418\u0428\u0406</b> \u0430\u0431\u043E
+      <b>CTRL</b>"
   - m_Platform: 7
     m_Text: "<b>\u041F\u041E\u0413\u041B\u042F\u041D\u0422\u0415 \u041D\u0410</b>
       \u0406\u041D\u0422\u0415\u0420\u0410\u041A\u0422\u0418\u0412\u041D\u042B\u0419
       \u0415\u041B\u0415\u041C\u0415\u041D\u0422, \n<b>\u0417\u0410\u0422\u0418\u0421\u041D\u0406\u0422\u042C
       \u041A\u041B\u0410\u0412\u0406\u0428\u0423 \u0412\u041E\u0413\u041E\u041D\u042C*</b>
-      \u0430\u0431\u0438 \u043E\u0431\u0440\u0430\u0442\u0438\r"
-  - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
+      \u0430\u0431\u0438 \u043E\u0431\u0440\u0430\u0442\u0438\r\n\n\n\n\n\n\n<b>*Oculus
+      Button</b> \u043F\u043E \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u044E"
 --- !u!1 &1530708826
 GameObject:
   m_ObjectHideFlags: 0
@@ -3885,8 +3813,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1528763239}
-  - {fileID: 1257493204}
   - {fileID: 855431570}
+  - {fileID: 1257493204}
   - {fileID: 143249927}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -4054,7 +3982,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Going Back
+  m_Text: "\u0412\u0438\u0431\u0456\u0440 \u043C\u0456\u0441\u0442\u0430"
 --- !u!222 &1672152659
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4202,7 +4130,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773817985}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -4576,17 +4504,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1876884659}
-  m_LocalRotation: {x: -0.000000029802322, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6}
-  m_LocalScale: {x: 0.075, y: 0.075, z: 0.075}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1558595307}
-  m_Father: {fileID: 1528763239}
-  m_RootOrder: 3
+  m_Father: {fileID: 1487780014}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -0.6}
+  m_AnchoredPosition: {x: 23.835, y: -6}
   m_SizeDelta: {x: 47.67, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1876884661
