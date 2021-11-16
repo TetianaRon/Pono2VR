@@ -215,10 +215,10 @@ MonoBehaviour:
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
   m_Slider: {fileID: 0}
   m_InteractiveItem: {fileID: 1942867348}
-  m_VRInput: {fileID: 1833860350}
+  m_VRInput: {fileID: 2121076242}
   m_BarCanvas: {fileID: 0}
   m_Renderer: {fileID: 704221363}
-  m_SelectionRadial: {fileID: 2126730145}
+  m_SelectionRadial: {fileID: 2121107028}
   m_UIFader: {fileID: 0}
   m_Collider: {fileID: 0}
   m_DisableOnBarFill: 1
@@ -259,10 +259,10 @@ MonoBehaviour:
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
   m_Slider: {fileID: 0}
   m_InteractiveItem: {fileID: 1207963380}
-  m_VRInput: {fileID: 1833860350}
+  m_VRInput: {fileID: 2121076242}
   m_BarCanvas: {fileID: 0}
   m_Renderer: {fileID: 704221363}
-  m_SelectionRadial: {fileID: 2126730145}
+  m_SelectionRadial: {fileID: 2121107028}
   m_UIFader: {fileID: 0}
   m_Collider: {fileID: 0}
   m_DisableOnBarFill: 1
@@ -871,15 +871,15 @@ PrefabInstance:
     - target: {fileID: 11461874, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_CameraFade
       value: 
-      objectReference: {fileID: 2126730146}
+      objectReference: {fileID: 2121106358}
     - target: {fileID: 11461874, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_SceneToLoad
-      value: Shooter360
+      value: VirtualTourDemo
       objectReference: {fileID: 0}
     - target: {fileID: 11461874, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_UISelectionBar
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11461874, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_InteractiveItem
       value: 
@@ -887,7 +887,7 @@ PrefabInstance:
     - target: {fileID: 11461874, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_SelectionRadial
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11487422, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_Transform
       value: 
@@ -1091,11 +1091,11 @@ PrefabInstance:
     - target: {fileID: 11417264, guid: 904806be95c6f7644bf0c8303943662e, type: 3}
       propertyPath: m_CameraFade
       value: 
-      objectReference: {fileID: 2126730146}
+      objectReference: {fileID: 2121106358}
     - target: {fileID: 11417264, guid: 904806be95c6f7644bf0c8303943662e, type: 3}
       propertyPath: m_UISelectionBar
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11417264, guid: 904806be95c6f7644bf0c8303943662e, type: 3}
       propertyPath: m_InteractiveItem
       value: 
@@ -1103,7 +1103,7 @@ PrefabInstance:
     - target: {fileID: 11417264, guid: 904806be95c6f7644bf0c8303943662e, type: 3}
       propertyPath: m_SelectionRadial
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11453372, guid: 904806be95c6f7644bf0c8303943662e, type: 3}
       propertyPath: m_Transform
       value: 
@@ -2016,11 +2016,15 @@ PrefabInstance:
     - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 3}
       propertyPath: m_CameraFade
       value: 
-      objectReference: {fileID: 2126730146}
+      objectReference: {fileID: 2121106358}
+    - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 3}
+      propertyPath: m_SceneToLoad
+      value: VirtualTourDemo
+      objectReference: {fileID: 0}
     - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 3}
       propertyPath: m_UISelectionBar
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 3}
       propertyPath: m_InteractiveItem
       value: 
@@ -2028,7 +2032,7 @@ PrefabInstance:
     - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 3}
       propertyPath: m_SelectionRadial
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 3}
       propertyPath: m_AnimTextures.Array.size
       value: 51
@@ -2396,11 +2400,15 @@ PrefabInstance:
     - target: {fileID: 11419562, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
       propertyPath: m_CameraFade
       value: 
-      objectReference: {fileID: 2126730146}
+      objectReference: {fileID: 2121106358}
+    - target: {fileID: 11419562, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
+      propertyPath: m_SceneToLoad
+      value: VirtualTourDemo2
+      objectReference: {fileID: 0}
     - target: {fileID: 11419562, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
       propertyPath: m_UISelectionBar
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11419562, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
       propertyPath: m_InteractiveItem
       value: 
@@ -2408,7 +2416,7 @@ PrefabInstance:
     - target: {fileID: 11419562, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
       propertyPath: m_SelectionRadial
       value: 
-      objectReference: {fileID: 2126730145}
+      objectReference: {fileID: 2121107028}
     - target: {fileID: 11443544, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
       propertyPath: m_AnimTextures.Array.size
       value: 51
@@ -3041,32 +3049,14 @@ MonoBehaviour:
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
   m_Slider: {fileID: 0}
   m_InteractiveItem: {fileID: 310010678}
-  m_VRInput: {fileID: 1833860350}
+  m_VRInput: {fileID: 2121076242}
   m_BarCanvas: {fileID: 0}
   m_Renderer: {fileID: 704221363}
-  m_SelectionRadial: {fileID: 2126730145}
+  m_SelectionRadial: {fileID: 2121107028}
   m_UIFader: {fileID: 0}
   m_Collider: {fileID: 0}
   m_DisableOnBarFill: 1
   m_DisappearOnBarFill: 0
---- !u!114 &1277028541 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11420606, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2126730144}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aff17147c9606014f8e8f74f255d466a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1277028542 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2126730144}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1306362084
 GameObject:
   m_ObjectHideFlags: 0
@@ -3589,18 +3579,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1833860350 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11427250, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2126730144}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8902ef04f323e444b98d2e4fd80a56ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1942867347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 420702, guid: 904806be95c6f7644bf0c8303943662e,
@@ -3661,10 +3639,10 @@ MonoBehaviour:
   m_OnFilledClip: {fileID: 8300000, guid: 9f9d2c4dc4b50704bbf83a0e84e35936, type: 3}
   m_Slider: {fileID: 0}
   m_InteractiveItem: {fileID: 1947940832}
-  m_VRInput: {fileID: 1833860350}
+  m_VRInput: {fileID: 2121076242}
   m_BarCanvas: {fileID: 0}
   m_Renderer: {fileID: 704221363}
-  m_SelectionRadial: {fileID: 2126730145}
+  m_SelectionRadial: {fileID: 2121107028}
   m_UIFader: {fileID: 0}
   m_Collider: {fileID: 0}
   m_DisableOnBarFill: 1
@@ -3872,80 +3850,35 @@ Transform:
   m_Father: {fileID: 715592804}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2126730144
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 104168, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_Name
-      value: MainCamera
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
---- !u!114 &2126730145 stripped
+--- !u!114 &2121076242 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11458036, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
+  m_CorrespondingSourceObject: {fileID: 3243997481911446746, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
     type: 3}
-  m_PrefabInstance: {fileID: 2126730144}
+  m_PrefabInstance: {fileID: 3243997482152813256}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03fb8390bc96a7f4cafebf5efc362f62, type: 3}
+  m_Script: {fileID: 11500000, guid: 8902ef04f323e444b98d2e4fd80a56ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2126730146 stripped
+--- !u!114 &2121076766 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11456534, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
+  m_CorrespondingSourceObject: {fileID: 3243997481911448278, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
     type: 3}
-  m_PrefabInstance: {fileID: 2126730144}
+  m_PrefabInstance: {fileID: 3243997482152813256}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff17147c9606014f8e8f74f255d466a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2121106358 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3243997481911411070, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3243997482152813256}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -3953,6 +3886,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31957ab02a8654b448736febf48c16e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2121107028 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3243997481911411868, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3243997482152813256}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03fb8390bc96a7f4cafebf5efc362f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2126828926 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3243997482152813256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3243997482152813256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3243997481904031170, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905170304, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_Name
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905170304, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243997481905567670, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12e44d2cdc56004e8bab4b9f9730e6f, type: 3}
 --- !u!1001 &9011392141997115187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3969,17 +3999,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 1277028542}
+      objectReference: {fileID: 2126828926}
     - target: {fileID: 9011392142048565802, guid: 53ac7185127cdd440ab37c0e690c4a8b,
         type: 3}
       propertyPath: m_Reticle
       value: 
-      objectReference: {fileID: 1277028541}
+      objectReference: {fileID: 2121076766}
     - target: {fileID: 9011392142048565802, guid: 53ac7185127cdd440ab37c0e690c4a8b,
         type: 3}
       propertyPath: m_VRInput
       value: 
-      objectReference: {fileID: 1833860350}
+      objectReference: {fileID: 2121076242}
     - target: {fileID: 9011392142063780898, guid: 53ac7185127cdd440ab37c0e690c4a8b,
         type: 3}
       propertyPath: m_Pivot.x

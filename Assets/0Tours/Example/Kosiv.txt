@@ -280,14 +280,14 @@
             "IsStereo": false,
             "ResourcePath": "Images\\Kosiv\\ostry",
             "MediaName": "ostry",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.7463543,
             "UID": -841844992,
             "Elements": [
                 {
                     "TargetNodeUID": -414708992,
                     "MappedPosition": {
-                        "x": 0.8136419,
-                        "y": 0.2151665
+                        "x": 0.4729436,
+                        "y": 0.6208988
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
