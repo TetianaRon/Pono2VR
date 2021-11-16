@@ -65,10 +65,26 @@ namespace DigitalSalmon.C360 {
             currentScene = data.NiceName;
             Debug.Log("Current scene is: " + currentScene);
 
+			Debug.Log("Exit Media");
 			ExitMedia();
 
 			ImageMediaNodeData imageData = data as ImageMediaNodeData;
-			if (imageData != null) SwitchMedia(imageData);
+            if (imageData != null)
+            {
+                if (imageData.Image == null)
+                {
+					Debug.LogWarning("Got you!!!");
+                    Texture2D texture = Resources.Load<Texture2D>(imageData.ResourcePath);
+					imageData.AssignImage(texture);
+					if(imageData.Image==null)
+                        Debug.Log("");
+						
+                }
+
+                SwitchMedia(imageData);
+				
+
+            }
 
 			VideoMediaNodeData videoData = data as VideoMediaNodeData;
 			if (videoData != null) SwitchMedia(videoData);
@@ -79,13 +95,18 @@ namespace DigitalSalmon.C360 {
 		//-----------------------------------------------------------------------------------------
 
 		private void SwitchMedia(ImageMediaNodeData data) {
-			if (data == null) {
+			if (data == null)
+            {
+                Debug.Log("Clear View");
 				ClearView();
 				return;
 			}
 
+			Debug.Log("Switching media to" + data.MediaName);
             
+			
 			SetMedia(data.Image);
+
 			SetStereoscopic(data.IsStereo);
 		}
 
@@ -124,7 +145,19 @@ namespace DigitalSalmon.C360 {
 			videoPlayer.Stop();
 		}
 
-		private void SetMedia(Texture texture) { mediaRenderer.material.SetTexture(TEXTURE_PROPERTY, texture); }
+        private void SetMedia(Texture texture)
+        {
+            if (texture != null)
+            {
+                Debug.Log("Setting " + mediaRenderer.name + " to show " + texture.name); 
+                mediaRenderer.material.SetTexture(TEXTURE_PROPERTY, texture);
+            }
+            else
+            {
+                Debug.Log("Clearing view with null texture" );
+				
+            }
+        }
 
 		private void SetStereoscopic(bool stereoscopic) { mediaRenderer.material.SetFloat(STEREO_PROPERTY, stereoscopic ? 1 : 0); }
 

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/VirtualTourDemo2.unity
+    guid: c1c41dea07c63c0489ebca31ffe21372
+  - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 1c5fe2bf037ade84ca9ed9d97b0e1b97
   - enabled: 1
@@ -20,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VirtualTourDemo.unity
     guid: 2436851742e1e164a82c70a9c680a7bc
-  - enabled: 1
-    path: Assets/Scenes/VirtualTourDemo2.unity
-    guid: c1c41dea07c63c0489ebca31ffe21372
   m_configObjects: {}

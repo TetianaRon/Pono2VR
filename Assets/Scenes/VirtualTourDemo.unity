@@ -226,6 +226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackToMain
       objectReference: {fileID: 0}
+    - target: {fileID: 6646327378838723522, guid: c767b1386b9e7ad469fb59a3dca6d2cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6646327378838850548, guid: c767b1386b9e7ad469fb59a3dca6d2cd,
         type: 3}
       propertyPath: m_RootOrder
@@ -357,6 +362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114132939005497062, guid: f3cfd890529c4034c8240d0b7b0507d8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114132939005497062, guid: f3cfd890529c4034c8240d0b7b0507d8,
         type: 3}
@@ -634,8 +644,8 @@ MonoBehaviour:
   enableInEditor: 1
   enableInBuild: 1
   lockMode: 0
-  hideCursor: 0
-  rightMouseButton: 1
+  hideCursor: 1
+  rightMouseButton: 0
   sensitivityMutliplier: 1
   smoothingMultiplier: 1
 --- !u!20 &1435228356
