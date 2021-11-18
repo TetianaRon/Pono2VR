@@ -348,7 +348,7 @@ PrefabInstance:
         type: 3}
       propertyPath: tourData
       value: 
-      objectReference: {fileID: 4900000, guid: 2294e00c3442c6149900fc75233f83ab, type: 3}
+      objectReference: {fileID: 4900000, guid: 32a60d675901a7f4a9ace3aacb3e148e, type: 3}
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8,
         type: 3}
       propertyPath: autoBeginTour

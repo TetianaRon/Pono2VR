@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace DigitalSalmon.C360 {
@@ -107,7 +108,22 @@ namespace DigitalSalmon.C360 {
 				return;
 			}
 
-			tour = Tour.GetTourFromJson(tourData.text);
+            try
+            {
+            #if UNITY_WEBGL
+                tour = TourConverter.ParseTour(tourData.text);
+            #else 
+            tour = Tour.GetTourFromJson(tourData.text);
+			#endif
+ 
+
+            }
+            catch (Exception e)
+            {
+
+				Debug.Log("Hello from our bug.\n Suka blyat: "+e.StackTrace);
+                throw;
+            }
 
 			if (tour == null) {
 				Debug.LogWarning("Failed to load tour. TourData file could be damaged.");
@@ -116,6 +132,7 @@ namespace DigitalSalmon.C360 {
 
 			InitialiseNodeDataLookups();
 
+			Debug.Log("About to begin tour");
 			if (autoBeginTour) {
 				BeginTour();
 			}
@@ -158,7 +175,9 @@ namespace DigitalSalmon.C360 {
 		/// Switches the MediaSwitch to the first piece of media.
 		/// </summary>
 		public void BeginTour() {
+			Debug.Log("Gettting First Media");
 			NodeData firstNodeData = GetFirstMedia();
+			Debug.Log("First NOde Data : "+firstNodeData.NiceName);
 			GoToMedia(firstNodeData);
 		}
 
@@ -231,6 +250,8 @@ namespace DigitalSalmon.C360 {
 		}
 
 		private NodeData GetFirstMedia() {
+
+			Debug.Log("Getting First media");
 			if (tour == null) {
 				Debug.LogWarning("Failed to find first media. TourData files must contain atleast one node!");
 				return null;
@@ -239,6 +260,8 @@ namespace DigitalSalmon.C360 {
 			NodeData namedNodeData = GetNodeDataByName(entryId);
 			if (namedNodeData != null) return namedNodeData;
 			int uid;
+
+			Debug.Log("Parsing First media");
 			if (int.TryParse(entryId, out uid)) {
 				return GetNodeDataByUid(uid);
 			}
