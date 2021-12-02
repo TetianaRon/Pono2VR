@@ -1,0 +1,532 @@
+{
+    "NodeDataList": [
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\bazar-dron",
+            "MediaName": "bazar-dron",
+            "EntryYaw": 0.3841808,
+            "UID": -628408832,
+            "Elements": [
+                {
+                    "TargetNodeUID": -414708992,
+                    "MappedPosition": {
+                        "x": 0.6138855,
+                        "y": 0.4889026
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -240.0,
+                "y": 0.0
+            },
+            "Name": "bazar-dron",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\centr-gucul",
+            "MediaName": "centr-gucul",
+            "EntryYaw": 0.7844093,
+            "UID": -379927808,
+            "Elements": [
+                {
+                    "TargetNodeUID": -414708992,
+                    "MappedPosition": {
+                        "x": 0.8855055,
+                        "y": 0.4963009
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -30.0,
+                "y": -90.0
+            },
+            "Name": "centr-gucul",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\guk2",
+            "MediaName": "guk2",
+            "EntryYaw": 0.0,
+            "UID": 46944512,
+            "Elements": [
+                {
+                    "TargetNodeUID": -414708992,
+                    "MappedPosition": {
+                        "x": 0.3775883,
+                        "y": 0.3360049
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -180.0,
+                "y": -90.0
+            },
+            "Name": "guk2",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\keramika",
+            "MediaName": "keramika",
+            "EntryYaw": 0.3902821,
+            "UID": 456268032,
+            "Elements": [
+                {
+                    "TargetNodeUID": 857159936,
+                    "MappedPosition": {
+                        "x": 0.3008475,
+                        "y": 0.5501432
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -414972672,
+                    "MappedPosition": {
+                        "x": 0.04096045,
+                        "y": 0.5587392
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 865907968,
+                    "MappedPosition": {
+                        "x": 0.7782486,
+                        "y": 0.5587392
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 643723776,
+                    "MappedPosition": {
+                        "x": 0.9744214,
+                        "y": 0.6072749
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -414708992,
+                    "MappedPosition": {
+                        "x": 0.4750305,
+                        "y": 0.5382244
+                    },
+                    "IconIndex": 5,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1046533120,
+                    "MappedPosition": {
+                        "x": 0.1947791,
+                        "y": 0.5409836
+                    },
+                    "IconIndex": 9,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -90.0,
+                "y": 390.0
+            },
+            "Name": "keramika",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\museum3",
+            "MediaName": "museum3",
+            "EntryYaw": 0.6388489,
+            "UID": -414972672,
+            "Elements": [
+                {
+                    "TargetNodeUID": 456268032,
+                    "MappedPosition": {
+                        "x": 0.7302262,
+                        "y": 0.524355
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 60.0,
+                "y": 390.0
+            },
+            "Name": "museum3",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\mykolai-dron",
+            "MediaName": "mykolai-dron",
+            "EntryYaw": 0.5438871,
+            "UID": -414708992,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1712822016,
+                    "MappedPosition": {
+                        "x": 0.5310595,
+                        "y": 0.4617755
+                    },
+                    "IconIndex": 4,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -210020864,
+                    "MappedPosition": {
+                        "x": 0.2155907,
+                        "y": 0.5209618
+                    },
+                    "IconIndex": 9,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 456268032,
+                    "MappedPosition": {
+                        "x": 0.04628502,
+                        "y": 0.6368681
+                    },
+                    "IconIndex": 5,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 46944512,
+                    "MappedPosition": {
+                        "x": 0.9415347,
+                        "y": 0.4815043
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -379927808,
+                    "MappedPosition": {
+                        "x": 0.3946407,
+                        "y": 0.5456227
+                    },
+                    "IconIndex": 8,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -628408832,
+                    "MappedPosition": {
+                        "x": 0.316687,
+                        "y": 0.5036991
+                    },
+                    "IconIndex": 4,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -841844992,
+                    "MappedPosition": {
+                        "x": 0.0316687,
+                        "y": 0.4297164
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 0.0,
+                "y": 60.0
+            },
+            "Name": "mykolai-dron",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\mykolai-in",
+            "MediaName": "mykolai-in",
+            "EntryYaw": 0.5225989,
+            "UID": -1046533120,
+            "Elements": [
+                {
+                    "TargetNodeUID": 216851456,
+                    "MappedPosition": {
+                        "x": 0.8601695,
+                        "y": 0.6418338
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 456268032,
+                    "MappedPosition": {
+                        "x": 0.626506,
+                        "y": 0.4631148
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 90.0,
+                "y": 540.0
+            },
+            "Name": "mykolai-in",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\ostry",
+            "MediaName": "ostry",
+            "EntryYaw": 0.7463543,
+            "UID": -841844992,
+            "Elements": [
+                {
+                    "TargetNodeUID": -414708992,
+                    "MappedPosition": {
+                        "x": 0.4729436,
+                        "y": 0.6208988
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -330.0,
+                "y": 120.0
+            },
+            "Name": "ostry",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\pereprava",
+            "MediaName": "pereprava",
+            "EntryYaw": 0.0,
+            "UID": 1514964480,
+            "Elements": [
+                {
+                    "TargetNodeUID": 234083840,
+                    "MappedPosition": {
+                        "x": 0.06333739,
+                        "y": 0.609741
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 270.0,
+                "y": -30.0
+            },
+            "Name": "pereprava",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\petrychuk",
+            "MediaName": "petrychuk",
+            "EntryYaw": 0.180268,
+            "UID": 865907968,
+            "Elements": [
+                {
+                    "TargetNodeUID": 456268032,
+                    "MappedPosition": {
+                        "x": 0.1680877,
+                        "y": 0.6270037
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -330.0,
+                "y": 390.0
+            },
+            "Name": "petrychuk",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\pistyn",
+            "MediaName": "pistyn",
+            "EntryYaw": 0.8795181,
+            "UID": -210020864,
+            "Elements": [
+                {
+                    "TargetNodeUID": 234083840,
+                    "MappedPosition": {
+                        "x": 0.4096386,
+                        "y": 0.5819672
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 120.0,
+                "y": 210.0
+            },
+            "Name": "pistyn",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\radysh",
+            "MediaName": "radysh",
+            "EntryYaw": 0.6299435,
+            "UID": 216851456,
+            "Elements": [
+                {
+                    "TargetNodeUID": 234083840,
+                    "MappedPosition": {
+                        "x": 0.210452,
+                        "y": 0.8194842
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1046533120,
+                    "MappedPosition": {
+                        "x": 0.6468927,
+                        "y": 0.5673352
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 240.0,
+                "y": 360.0
+            },
+            "Name": "radysh",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\sheshory",
+            "MediaName": "sheshory",
+            "EntryYaw": 0.7454324,
+            "UID": 234083840,
+            "Elements": [
+                {
+                    "TargetNodeUID": 216851456,
+                    "MappedPosition": {
+                        "x": 0.733051,
+                        "y": 0.5530084
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -210020864,
+                    "MappedPosition": {
+                        "x": 0.09887005,
+                        "y": 0.6590258
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1514964480,
+                    "MappedPosition": {
+                        "x": 0.4421437,
+                        "y": 0.525894
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 240.0,
+                "y": 180.0
+            },
+            "Name": "sheshory",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\skelia-dron",
+            "MediaName": "skelia-dron",
+            "EntryYaw": 0.6906598,
+            "UID": -1712822016,
+            "Elements": [
+                {
+                    "TargetNodeUID": -414708992,
+                    "MappedPosition": {
+                        "x": 0.1400731,
+                        "y": 0.5974106
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 120.0,
+                "y": -30.0
+            },
+            "Name": "skelia-dron",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\valylo-in",
+            "MediaName": "valylo-in",
+            "EntryYaw": 0.4348356,
+            "UID": 643723776,
+            "Elements": [
+                {
+                    "TargetNodeUID": 456268032,
+                    "MappedPosition": {
+                        "x": 0.3946407,
+                        "y": 0.4395808
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -120.0,
+                "y": 570.0
+            },
+            "Name": "valylo-in",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "Images\\Kosiv\\valylo-out",
+            "MediaName": "valylo-out",
+            "EntryYaw": 0.3427592,
+            "UID": 857159936,
+            "Elements": [
+                {
+                    "TargetNodeUID": -210020864,
+                    "MappedPosition": {
+                        "x": 0.2612994,
+                        "y": 0.08022922
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 456268032,
+                    "MappedPosition": {
+                        "x": 0.7683616,
+                        "y": 0.1375358
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -270.0,
+                "y": 270.0
+            },
+            "Name": "valylo-out",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        }
+    ]
+}
