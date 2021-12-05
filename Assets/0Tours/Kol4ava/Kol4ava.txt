@@ -18,8 +18,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -330.0,
-                "y": -270.0
+                "x": -240.0,
+                "y": -240.0
             },
             "Name": "amfiteatr",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -28,7 +28,7 @@
             "IsStereo": false,
             "ResourcePath": "center",
             "MediaName": "center",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.6130375,
             "UID": 1403387776,
             "Elements": [
                 {
@@ -36,6 +36,15 @@
                     "MappedPosition": {
                         "x": 0.7585711,
                         "y": 0.6884907
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 2086164096,
+                    "MappedPosition": {
+                        "x": 0.237171,
+                        "y": 0.4388186
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -210,8 +219,8 @@
             "UID": 1207099648,
             "Elements": [],
             "NodePosition": {
-                "x": -240.0,
-                "y": 120.0
+                "x": -450.0,
+                "y": -30.0
             },
             "Name": "skansen-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -280,8 +289,8 @@
             "UID": -1171363072,
             "Elements": [],
             "NodePosition": {
-                "x": -360.0,
-                "y": 240.0
+                "x": -330.0,
+                "y": -30.0
             },
             "Name": "skansen7",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -336,8 +345,8 @@
             "UID": 2086164096,
             "Elements": [],
             "NodePosition": {
-                "x": -210.0,
-                "y": -270.0
+                "x": -270.0,
+                "y": -390.0
             },
             "Name": "strymba2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
