@@ -6,7 +6,17 @@
             "MediaName": "amfiteatr",
             "EntryYaw": 0.0,
             "UID": -961906048,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 2086164096,
+                    "MappedPosition": {
+                        "x": 0.5941021,
+                        "y": 0.4358693
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -330.0,
                 "y": -270.0
@@ -20,7 +30,17 @@
             "MediaName": "center",
             "EntryYaw": 0.0,
             "UID": 1403387776,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": -961906048,
+                    "MappedPosition": {
+                        "x": 0.7585711,
+                        "y": 0.6884907
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -450.0,
                 "y": -270.0
@@ -32,7 +52,7 @@
             "IsStereo": false,
             "ResourcePath": "chehskola",
             "MediaName": "chehskola",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.4464158,
             "UID": -1999346176,
             "Elements": [],
             "NodePosition": {
@@ -92,8 +112,8 @@
             "UID": 532147072,
             "Elements": [],
             "NodePosition": {
-                "x": -390.0,
-                "y": 90.0
+                "x": -360.0,
+                "y": 120.0
             },
             "Name": "korchma",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
