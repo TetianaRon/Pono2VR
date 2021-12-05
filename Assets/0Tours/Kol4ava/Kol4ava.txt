@@ -10,8 +10,35 @@
                 {
                     "TargetNodeUID": 2086164096,
                     "MappedPosition": {
-                        "x": 0.5941021,
-                        "y": 0.4358693
+                        "x": 0.595122,
+                        "y": 0.437037
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1403387776,
+                    "MappedPosition": {
+                        "x": 0.595122,
+                        "y": 0.437037
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 24452736,
+                    "MappedPosition": {
+                        "x": 0.5000001,
+                        "y": 0.4864197
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 2086164096,
+                    "MappedPosition": {
+                        "x": 0.5317073,
+                        "y": 0.3925926
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -442,7 +469,62 @@
             "MediaName": "skansen-dron",
             "EntryYaw": 0.0,
             "UID": 1207099648,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 2086164096,
+                    "MappedPosition": {
+                        "x": 0.07439025,
+                        "y": 0.417284
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -569543296,
+                    "MappedPosition": {
+                        "x": 0.1939024,
+                        "y": 0.5333334
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -265960832,
+                    "MappedPosition": {
+                        "x": 0.2524391,
+                        "y": 0.5037037
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 532147072,
+                    "MappedPosition": {
+                        "x": 0.297561,
+                        "y": 0.5580247
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1048723968,
+                    "MappedPosition": {
+                        "x": 0.3268293,
+                        "y": 0.5851852
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1918389632,
+                    "MappedPosition": {
+                        "x": 0.9365854,
+                        "y": 0.6246914
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -450.0,
                 "y": -30.0
@@ -484,10 +566,29 @@
             "MediaName": "skansen3",
             "EntryYaw": 0.0,
             "UID": -1918389632,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1207099648,
+                    "MappedPosition": {
+                        "x": 0.0,
+                        "y": 0.6098766
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1048723968,
+                    "MappedPosition": {
+                        "x": 0.2719512,
+                        "y": 0.454321
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
-                "x": -450.0,
-                "y": 210.0
+                "x": -510.0,
+                "y": -540.0
             },
             "Name": "skansen3",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -498,7 +599,26 @@
             "MediaName": "skansen4",
             "EntryYaw": 0.0,
             "UID": 1048723968,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1207099648,
+                    "MappedPosition": {
+                        "x": 0.8621952,
+                        "y": 0.454321
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1918389632,
+                    "MappedPosition": {
+                        "x": 0.2634147,
+                        "y": 0.0
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 150.0,
                 "y": -30.0

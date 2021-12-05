@@ -6,7 +6,17 @@
             "MediaName": "bazar-dron",
             "EntryYaw": 0.0,
             "UID": -1913083776,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.4756098,
+                        "y": 0.4320987
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 120.0,
                 "y": -120.0
@@ -20,7 +30,17 @@
             "MediaName": "bazar2",
             "EntryYaw": 0.0,
             "UID": 161796480,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.7304879,
+                        "y": 0.362963
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -360.0,
                 "y": 0.0
@@ -48,7 +68,17 @@
             "MediaName": "guk2",
             "EntryYaw": 0.0,
             "UID": -875643648,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.1841464,
+                        "y": 0.3481481
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -240.0,
                 "y": -120.0
@@ -118,7 +148,17 @@
             "MediaName": "museum1",
             "EntryYaw": 0.0,
             "UID": -1166057216,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.2304878,
+                        "y": 0.4691358
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -120.0,
                 "y": -120.0
@@ -132,7 +172,26 @@
             "MediaName": "museum3",
             "EntryYaw": 0.0,
             "UID": 1054029824,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.0,
+                        "y": 0.6098766
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1166057216,
+                    "MappedPosition": {
+                        "x": 0.03170732,
+                        "y": 0.6222222
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 0.0,
                 "y": -120.0
