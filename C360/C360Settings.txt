@@ -1,5 +1,5 @@
 {
     "ToolsOpen": false,
-    "LatestTourPath": "B:/Git/Pono2VR/Assets/0Tours/Kol4ava/Kol4ava.txt",
+    "LatestTourPath": "B:/Git/Pono2VR/Assets/0Tours/Kosiv/Kosiv.txt",
     "LatestResourcePath": "C:/Git/Pono2VR/Assets/0Tours/Kosiv/Resources"
 }

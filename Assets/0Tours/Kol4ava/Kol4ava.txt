@@ -875,8 +875,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -90.0,
-                "y": -420.0
+                "x": -450.0,
+                "y": 210.0
             },
             "Name": "skansen3",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"

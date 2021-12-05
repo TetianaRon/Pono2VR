@@ -15,6 +15,60 @@
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 618409472,
+                    "MappedPosition": {
+                        "x": 0.587184,
+                        "y": 0.4350707
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1601677568,
+                    "MappedPosition": {
+                        "x": 0.5963383,
+                        "y": 0.5278269
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.63034,
+                        "y": 0.4377209
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -875643648,
+                    "MappedPosition": {
+                        "x": 0.6617262,
+                        "y": 0.4668728
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -585230080,
+                    "MappedPosition": {
+                        "x": 0.6931124,
+                        "y": 0.5225266
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 452210048,
+                    "MappedPosition": {
+                        "x": 0.7297297,
+                        "y": 0.469523
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
@@ -39,6 +93,24 @@
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.6081081,
+                        "y": 0.0
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1166057216,
+                    "MappedPosition": {
+                        "x": 0.2720139,
+                        "y": 0.4801237
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
@@ -54,7 +126,26 @@
             "MediaName": "centr-gucul",
             "EntryYaw": 0.0,
             "UID": -585230080,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.4956408,
+                        "y": 0.3158128
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 618409472,
+                    "MappedPosition": {
+                        "x": 0.3609416,
+                        "y": 0.3052121
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 0.0,
                 "y": 0.0
@@ -77,6 +168,42 @@
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 452210048,
+                    "MappedPosition": {
+                        "x": 0.5244115,
+                        "y": 0.4377209
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 2091469952,
+                    "MappedPosition": {
+                        "x": 0.5610288,
+                        "y": 0.4933746
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.6172624,
+                        "y": 0.3979682
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.9285091,
+                        "y": 0.2230566
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
@@ -92,7 +219,26 @@
             "MediaName": "institute",
             "EntryYaw": 0.0,
             "UID": 452210048,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 16589696,
+                    "MappedPosition": {
+                        "x": 0.9363557,
+                        "y": 0.4483216
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.7428073,
+                        "y": 0.4324206
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -240.0,
                 "y": 0.0
@@ -106,7 +252,17 @@
             "MediaName": "institute2",
             "EntryYaw": 0.0,
             "UID": 16589696,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 452210048,
+                    "MappedPosition": {
+                        "x": 0.03792502,
+                        "y": 0.4668728
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -120.0,
                 "y": 0.0
@@ -134,7 +290,17 @@
             "MediaName": "koka",
             "EntryYaw": 0.0,
             "UID": 2091469952,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.9507411,
+                        "y": 0.4271202
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 120.0,
                 "y": 0.0
@@ -154,6 +320,15 @@
                     "MappedPosition": {
                         "x": 0.2304878,
                         "y": 0.4691358
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1054029824,
+                    "MappedPosition": {
+                        "x": 0.9847428,
+                        "y": 0.4854241
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -190,6 +365,15 @@
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1166057216,
+                    "MappedPosition": {
+                        "x": 0.7872711,
+                        "y": 0.469523
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
@@ -205,7 +389,17 @@
             "MediaName": "mykolai-dron",
             "EntryYaw": 0.0,
             "UID": 908823040,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": -1311264000,
+                    "MappedPosition": {
+                        "x": 0.03007847,
+                        "y": 0.6258834
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -360.0,
                 "y": 120.0
@@ -428,7 +622,26 @@
             "MediaName": "pereprava",
             "EntryYaw": 0.0,
             "UID": 763616256,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 618409472,
+                    "MappedPosition": {
+                        "x": 0.418483,
+                        "y": 0.3025619
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.2746295,
+                        "y": 0.3158128
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 120.0,
                 "y": 120.0
@@ -456,7 +669,17 @@
             "MediaName": "pistyn",
             "EntryYaw": 0.0,
             "UID": -128617088,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 763616256,
+                    "MappedPosition": {
+                        "x": 0.5819529,
+                        "y": 0.6338339
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 0.0,
                 "y": 120.0
@@ -470,7 +693,17 @@
             "MediaName": "radysh",
             "EntryYaw": 0.0,
             "UID": -1456470784,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.8212729,
+                        "y": 0.4377209
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -120.0,
                 "y": 120.0
@@ -484,7 +717,26 @@
             "MediaName": "sheshory",
             "EntryYaw": 0.0,
             "UID": 1801056384,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.5806451,
+                        "y": 0.3052121
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 908823040,
+                    "MappedPosition": {
+                        "x": 0.663034,
+                        "y": 0.3052121
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -360.0,
                 "y": 360.0
@@ -498,7 +750,26 @@
             "MediaName": "skelia-dron",
             "EntryYaw": 0.0,
             "UID": 618409472,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.7297297,
+                        "y": 0.3158128
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.847428,
+                        "y": 0.3449647
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -360.0,
                 "y": 240.0
@@ -526,7 +797,53 @@
             "MediaName": "valylo-out",
             "EntryYaw": 0.0,
             "UID": 1498781952,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": -1601677568,
+                    "MappedPosition": {
+                        "x": 0.8121185,
+                        "y": 0.4801237
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 618409472,
+                    "MappedPosition": {
+                        "x": 0.9049695,
+                        "y": 0.2283569
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.7114211,
+                        "y": 0.2548587
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.63034,
+                        "y": 0.109099
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 908823040,
+                    "MappedPosition": {
+                        "x": 0.5453357,
+                        "y": 0.2204064
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -120.0,
                 "y": 240.0
