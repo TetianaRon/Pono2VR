@@ -345,7 +345,7 @@
             "Elements": [],
             "NodePosition": {
                 "x": -360.0,
-                "y": 360.0
+                "y": 390.0
             },
             "Name": "skeli3",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
