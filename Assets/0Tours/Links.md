@@ -1,6 +1,7 @@
 # Links 
 
-- [Tustan](http://lvivport.com/tustan/)
-- [Kolchava](http://lvivport.com/kolochava/)
-- [Kosiv](http://lvivport.com/kosivtour/)
+- [Tustan](https://vr.ekarpaty.com/tustan/#node1)
+- [Kolchava](https://vr.ekarpaty.com/kolochava/#node1)
+- [Kosiv](https://vr.ekarpaty.com/kosiv/#node1)
+
 
