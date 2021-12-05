@@ -79,7 +79,7 @@
                 {
                     "TargetNodeUID": 1787926784,
                     "MappedPosition": {
-                        "x": 0.3249691,
+                        "x": 0.3286306,
                         "y": 0.5353727
                     },
                     "IconIndex": 0,
@@ -88,8 +88,8 @@
                 {
                     "TargetNodeUID": 467896832,
                     "MappedPosition": {
-                        "x": 0.3029822,
-                        "y": 0.6713796
+                        "x": 0.3017617,
+                        "y": 0.7158605
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -106,8 +106,8 @@
                 {
                     "TargetNodeUID": -1303400960,
                     "MappedPosition": {
-                        "x": 0.2858952,
-                        "y": 0.6367835
+                        "x": 0.2846747,
+                        "y": 0.6516105
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -115,8 +115,8 @@
                 {
                     "TargetNodeUID": -1999346176,
                     "MappedPosition": {
-                        "x": 0.315192,
-                        "y": 0.607083
+                        "x": 0.317633,
+                        "y": 0.6367369
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -151,8 +151,8 @@
                 {
                     "TargetNodeUID": -1171363072,
                     "MappedPosition": {
-                        "x": 0.3371885,
-                        "y": 0.5774242
+                        "x": 0.34085,
+                        "y": 0.5798954
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -169,8 +169,8 @@
                 {
                     "TargetNodeUID": 1808919424,
                     "MappedPosition": {
-                        "x": 0.307869,
-                        "y": 0.5749505
+                        "x": 0.295664,
+                        "y": 0.6046044
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -187,7 +187,7 @@
                 {
                     "TargetNodeUID": 1048723968,
                     "MappedPosition": {
-                        "x": 0.2797687,
+                        "x": 0.2773277,
                         "y": 0.5724769
                     },
                     "IconIndex": 0,
@@ -196,8 +196,8 @@
                 {
                     "TargetNodeUID": 532147072,
                     "MappedPosition": {
-                        "x": 0.3466232,
-                        "y": 0.6470345
+                        "x": 0.3563872,
+                        "y": 0.6618615
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -205,8 +205,8 @@
                 {
                     "TargetNodeUID": 1940957312,
                     "MappedPosition": {
-                        "x": 0.2624085,
-                        "y": 0.6223229
+                        "x": 0.2599675,
+                        "y": 0.6198518
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
