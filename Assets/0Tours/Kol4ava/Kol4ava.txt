@@ -18,8 +18,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -240.0,
-                "y": -240.0
+                "x": -330.0,
+                "y": -270.0
             },
             "Name": "amfiteatr",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -107,8 +107,8 @@
             "UID": -214879488,
             "Elements": [],
             "NodePosition": {
-                "x": 240.0,
-                "y": 300.0
+                "x": -90.0,
+                "y": 210.0
             },
             "Name": "karta_ms_17",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -121,8 +121,8 @@
             "UID": 532147072,
             "Elements": [],
             "NodePosition": {
-                "x": -360.0,
-                "y": 120.0
+                "x": -450.0,
+                "y": 90.0
             },
             "Name": "korchma",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -163,8 +163,8 @@
             "UID": 2099332992,
             "Elements": [],
             "NodePosition": {
-                "x": 0.0,
-                "y": 360.0
+                "x": 150.0,
+                "y": 90.0
             },
             "Name": "parovoz",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -177,8 +177,8 @@
             "UID": -120754048,
             "Elements": [],
             "NodePosition": {
-                "x": 120.0,
-                "y": 240.0
+                "x": -330.0,
+                "y": 210.0
             },
             "Name": "pasika",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -229,12 +229,12 @@
             "IsStereo": false,
             "ResourcePath": "skansen1",
             "MediaName": "skansen1",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.6194006,
             "UID": -265960832,
             "Elements": [],
             "NodePosition": {
-                "x": -120.0,
-                "y": 120.0
+                "x": -210.0,
+                "y": 90.0
             },
             "Name": "skansen1",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -247,8 +247,8 @@
             "UID": 1808919424,
             "Elements": [],
             "NodePosition": {
-                "x": 0.0,
-                "y": 120.0
+                "x": -90.0,
+                "y": -30.0
             },
             "Name": "skansen2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -261,8 +261,8 @@
             "UID": -1918389632,
             "Elements": [],
             "NodePosition": {
-                "x": 120.0,
-                "y": 120.0
+                "x": -450.0,
+                "y": 210.0
             },
             "Name": "skansen3",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -275,8 +275,8 @@
             "UID": 1048723968,
             "Elements": [],
             "NodePosition": {
-                "x": 240.0,
-                "y": 120.0
+                "x": 150.0,
+                "y": -30.0
             },
             "Name": "skansen4",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -303,8 +303,8 @@
             "UID": 11283840,
             "Elements": [],
             "NodePosition": {
-                "x": -240.0,
-                "y": 240.0
+                "x": 30.0,
+                "y": 90.0
             },
             "Name": "skansen9",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -317,8 +317,8 @@
             "UID": 1940957312,
             "Elements": [],
             "NodePosition": {
-                "x": -120.0,
-                "y": 240.0
+                "x": -330.0,
+                "y": 90.0
             },
             "Name": "skola",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -331,8 +331,8 @@
             "UID": 1795750528,
             "Elements": [],
             "NodePosition": {
-                "x": 0.0,
-                "y": 240.0
+                "x": -210.0,
+                "y": 210.0
             },
             "Name": "strymba",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -345,8 +345,8 @@
             "UID": 2086164096,
             "Elements": [],
             "NodePosition": {
-                "x": -270.0,
-                "y": -390.0
+                "x": -210.0,
+                "y": -270.0
             },
             "Name": "strymba2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -373,8 +373,8 @@
             "UID": 1650543744,
             "Elements": [],
             "NodePosition": {
-                "x": -360.0,
-                "y": 360.0
+                "x": -90.0,
+                "y": 90.0
             },
             "Name": "xata-sabova",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -387,8 +387,8 @@
             "UID": -569543296,
             "Elements": [],
             "NodePosition": {
-                "x": -240.0,
-                "y": 360.0
+                "x": -210.0,
+                "y": -30.0
             },
             "Name": "xata1",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -401,8 +401,8 @@
             "UID": 613103616,
             "Elements": [],
             "NodePosition": {
-                "x": -120.0,
-                "y": 360.0
+                "x": 30.0,
+                "y": -30.0
             },
             "Name": "xata2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
