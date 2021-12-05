@@ -8,7 +8,7 @@
             "UID": -1913083776,
             "Elements": [],
             "NodePosition": {
-                "x": -360.0,
+                "x": 120.0,
                 "y": -120.0
             },
             "Name": "bazar-dron",
@@ -22,8 +22,8 @@
             "UID": 161796480,
             "Elements": [],
             "NodePosition": {
-                "x": -240.0,
-                "y": -120.0
+                "x": -360.0,
+                "y": 0.0
             },
             "Name": "bazar2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -36,8 +36,8 @@
             "UID": -585230080,
             "Elements": [],
             "NodePosition": {
-                "x": -120.0,
-                "y": -120.0
+                "x": 0.0,
+                "y": 0.0
             },
             "Name": "centr-gucul",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -50,7 +50,7 @@
             "UID": -875643648,
             "Elements": [],
             "NodePosition": {
-                "x": 0.0,
+                "x": -240.0,
                 "y": -120.0
             },
             "Name": "guk2",
@@ -64,8 +64,8 @@
             "UID": 452210048,
             "Elements": [],
             "NodePosition": {
-                "x": 120.0,
-                "y": -120.0
+                "x": -240.0,
+                "y": 0.0
             },
             "Name": "institute",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -78,8 +78,8 @@
             "UID": 16589696,
             "Elements": [],
             "NodePosition": {
-                "x": 240.0,
-                "y": -120.0
+                "x": -120.0,
+                "y": 0.0
             },
             "Name": "institute2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -92,8 +92,8 @@
             "UID": -2058290560,
             "Elements": [],
             "NodePosition": {
-                "x": -360.0,
-                "y": 0.0
+                "x": 0.0,
+                "y": 240.0
             },
             "Name": "keramika",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -106,7 +106,7 @@
             "UID": 2091469952,
             "Elements": [],
             "NodePosition": {
-                "x": -240.0,
+                "x": 120.0,
                 "y": 0.0
             },
             "Name": "koka",
@@ -121,7 +121,7 @@
             "Elements": [],
             "NodePosition": {
                 "x": -120.0,
-                "y": 0.0
+                "y": -120.0
             },
             "Name": "museum1",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -135,7 +135,7 @@
             "Elements": [],
             "NodePosition": {
                 "x": 0.0,
-                "y": 0.0
+                "y": -120.0
             },
             "Name": "museum3",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -148,8 +148,8 @@
             "UID": 908823040,
             "Elements": [],
             "NodePosition": {
-                "x": 120.0,
-                "y": 0.0
+                "x": -360.0,
+                "y": 120.0
             },
             "Name": "mykolai-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -162,8 +162,8 @@
             "UID": -1311264000,
             "Elements": [],
             "NodePosition": {
-                "x": 240.0,
-                "y": 0.0
+                "x": -240.0,
+                "y": 120.0
             },
             "Name": "mykolai-in",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -174,10 +174,191 @@
             "MediaName": "ostry",
             "EntryYaw": 0.0,
             "UID": 1946263168,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1498781952,
+                    "MappedPosition": {
+                        "x": 0.5284788,
+                        "y": 0.5424218
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1601677568,
+                    "MappedPosition": {
+                        "x": 0.5272579,
+                        "y": 0.5424217
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -273823872,
+                    "MappedPosition": {
+                        "x": 0.413751,
+                        "y": 0.5078254
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 908823040,
+                    "MappedPosition": {
+                        "x": 0.7628153,
+                        "y": 0.4781713
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -875643648,
+                    "MappedPosition": {
+                        "x": 0.04515867,
+                        "y": 0.5350082
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2058290560,
+                    "MappedPosition": {
+                        "x": 0.07078926,
+                        "y": 0.5399505
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 2091469952,
+                    "MappedPosition": {
+                        "x": 0.09641986,
+                        "y": 0.4954695
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.140358,
+                        "y": 0.3323723
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 161796480,
+                    "MappedPosition": {
+                        "x": 0.14524,
+                        "y": 0.5053542
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1166057216,
+                    "MappedPosition": {
+                        "x": 0.06224573,
+                        "y": 0.4559308
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1054029824,
+                    "MappedPosition": {
+                        "x": 0.06224573,
+                        "y": 0.4559308
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 16589696,
+                    "MappedPosition": {
+                        "x": 0.007323027,
+                        "y": 0.5300659
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 452210048,
+                    "MappedPosition": {
+                        "x": 0.007323027,
+                        "y": 0.5300659
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 618409472,
+                    "MappedPosition": {
+                        "x": 0.2868186,
+                        "y": 0.4163921
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -585230080,
+                    "MappedPosition": {
+                        "x": 0.2379984,
+                        "y": 0.4855848
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1311264000,
+                    "MappedPosition": {
+                        "x": 0.7628153,
+                        "y": 0.4781713
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1456470784,
+                    "MappedPosition": {
+                        "x": 0.4601302,
+                        "y": 0.5498352
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -128617088,
+                    "MappedPosition": {
+                        "x": 0.7799023,
+                        "y": 0.604201
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 763616256,
+                    "MappedPosition": {
+                        "x": 0.7799024,
+                        "y": 0.604201
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1801056384,
+                    "MappedPosition": {
+                        "x": 0.3551668,
+                        "y": 0.5053542
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -360.0,
-                "y": 120.0
+                "y": -120.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -190,7 +371,7 @@
             "UID": 763616256,
             "Elements": [],
             "NodePosition": {
-                "x": -240.0,
+                "x": 120.0,
                 "y": 120.0
             },
             "Name": "pereprava",
@@ -204,8 +385,8 @@
             "UID": -273823872,
             "Elements": [],
             "NodePosition": {
-                "x": -120.0,
-                "y": 120.0
+                "x": 120.0,
+                "y": 240.0
             },
             "Name": "petrychuk",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -232,7 +413,7 @@
             "UID": -1456470784,
             "Elements": [],
             "NodePosition": {
-                "x": 120.0,
+                "x": -120.0,
                 "y": 120.0
             },
             "Name": "radysh",
@@ -246,8 +427,8 @@
             "UID": 1801056384,
             "Elements": [],
             "NodePosition": {
-                "x": 240.0,
-                "y": 120.0
+                "x": -360.0,
+                "y": 360.0
             },
             "Name": "sheshory",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
