@@ -522,7 +522,7 @@ PrefabInstance:
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8,
         type: 3}
       propertyPath: entryId
-      value: mykolai-dron
+      value: ostry
       objectReference: {fileID: 0}
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8,
         type: 3}
@@ -537,7 +537,7 @@ PrefabInstance:
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8,
         type: 3}
       propertyPath: transitionStyle
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 328175688404875952, guid: f3cfd890529c4034c8240d0b7b0507d8,
         type: 3}
