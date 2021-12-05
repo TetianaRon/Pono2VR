@@ -79,7 +79,7 @@
                 {
                     "TargetNodeUID": 1787926784,
                     "MappedPosition": {
-                        "x": 0.3225281,
+                        "x": 0.3249691,
                         "y": 0.5353727
                     },
                     "IconIndex": 0,
@@ -89,7 +89,7 @@
                     "TargetNodeUID": 467896832,
                     "MappedPosition": {
                         "x": 0.3042027,
-                        "y": 0.6293701
+                        "y": 0.6466681
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -106,8 +106,8 @@
                 {
                     "TargetNodeUID": -1303400960,
                     "MappedPosition": {
-                        "x": 0.3042027,
-                        "y": 0.6293701
+                        "x": 0.2993207,
+                        "y": 0.6268989
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -115,8 +115,8 @@
                 {
                     "TargetNodeUID": -1999346176,
                     "MappedPosition": {
-                        "x": 0.3090895,
-                        "y": 0.5823714
+                        "x": 0.3164125,
+                        "y": 0.5971984
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -189,6 +189,24 @@
                     "MappedPosition": {
                         "x": 0.2797687,
                         "y": 0.5724769
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 532147072,
+                    "MappedPosition": {
+                        "x": 0.3344182,
+                        "y": 0.6346787
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1940957312,
+                    "MappedPosition": {
+                        "x": 0.26607,
+                        "y": 0.6223229
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"

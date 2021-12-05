@@ -811,8 +811,8 @@ MonoBehaviour:
   enableInBuild: 1
   lockMode: 0
   hideCursor: 0
-  rightMouseButton: 1
-  sensitivityMutliplier: 1
+  rightMouseButton: 0
+  sensitivityMutliplier: 2
   smoothingMultiplier: 1
 --- !u!20 &1435228356
 Camera:
