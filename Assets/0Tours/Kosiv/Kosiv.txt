@@ -72,7 +72,7 @@
                 }
             ],
             "NodePosition": {
-                "x": 120.0,
+                "x": 210.0,
                 "y": -120.0
             },
             "Name": "bazar-dron",
@@ -278,8 +278,8 @@
             "UID": -2058290560,
             "Elements": [],
             "NodePosition": {
-                "x": 0.0,
-                "y": 240.0
+                "x": 30.0,
+                "y": 270.0
             },
             "Name": "keramika",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -302,8 +302,8 @@
                 }
             ],
             "NodePosition": {
-                "x": 120.0,
-                "y": 0.0
+                "x": 180.0,
+                "y": 30.0
             },
             "Name": "koka",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -434,7 +434,7 @@
                         "x": 0.5284788,
                         "y": 0.5424218
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -443,7 +443,7 @@
                         "x": 0.5272579,
                         "y": 0.5424217
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -452,7 +452,7 @@
                         "x": 0.413751,
                         "y": 0.5078254
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -461,7 +461,7 @@
                         "x": 0.7628153,
                         "y": 0.4781713
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -610,8 +610,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -360.0,
-                "y": -120.0
+                "x": -390.0,
+                "y": -210.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -643,8 +643,8 @@
                 }
             ],
             "NodePosition": {
-                "x": 120.0,
-                "y": 120.0
+                "x": 210.0,
+                "y": 90.0
             },
             "Name": "pereprava",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -657,7 +657,7 @@
             "UID": -273823872,
             "Elements": [],
             "NodePosition": {
-                "x": 120.0,
+                "x": 210.0,
                 "y": 240.0
             },
             "Name": "petrychuk",
