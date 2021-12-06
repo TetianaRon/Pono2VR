@@ -279,7 +279,7 @@
             "Elements": [],
             "NodePosition": {
                 "x": 30.0,
-                "y": 270.0
+                "y": 300.0
             },
             "Name": "keramika",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -443,7 +443,7 @@
                         "x": 0.5272579,
                         "y": 0.5424217
                     },
-                    "IconIndex": 5,
+                    "IconIndex": 1,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -452,7 +452,7 @@
                         "x": 0.413751,
                         "y": 0.5078254
                     },
-                    "IconIndex": 5,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -461,7 +461,7 @@
                         "x": 0.7628153,
                         "y": 0.4781713
                     },
-                    "IconIndex": 5,
+                    "IconIndex": 3,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -470,7 +470,7 @@
                         "x": 0.04515867,
                         "y": 0.5350082
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 4,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -479,7 +479,7 @@
                         "x": 0.07078926,
                         "y": 0.5399505
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -488,7 +488,7 @@
                         "x": 0.09641986,
                         "y": 0.4954695
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 6,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -497,7 +497,7 @@
                         "x": 0.140358,
                         "y": 0.3323723
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 7,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -611,7 +611,7 @@
             ],
             "NodePosition": {
                 "x": -390.0,
-                "y": -210.0
+                "y": -180.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"

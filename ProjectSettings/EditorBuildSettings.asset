@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 3959fdef1e02d4d4fb01414c7de44414
   - enabled: 1
-    path: Assets/Scenes/Shooter180.unity
-    guid: b62ef4a8c87fa764bbfdb7d250ce1c08
-  - enabled: 1
-    path: Assets/Scenes/Shooter360.unity
-    guid: 77d89b9deefb6a5438a228683e280537
-  - enabled: 1
     path: Assets/Scenes/Kosiv.unity
     guid: 2436851742e1e164a82c70a9c680a7bc
   - enabled: 1

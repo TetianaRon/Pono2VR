@@ -49,6 +49,8 @@ namespace VRStandardAssets.Utils
         private void Update()
         {
             CheckInput();
+                if (OnDown != null)
+                    OnDown();
         }
 
         public void Press(InputAction.CallbackContext context)
@@ -68,6 +70,8 @@ namespace VRStandardAssets.Utils
              {
                 // When Fire1 is released record the position of the mouse.
                 m_MouseUpPosition = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
+                if (OnUp != null)
+                    OnUp();
 
             }
         }
