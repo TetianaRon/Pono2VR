@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace VRStandardAssets.Utils
 {
@@ -27,6 +28,9 @@ namespace VRStandardAssets.Utils
         public event Action OnDoubleClick;                          // Called when a double click is detected.
         public event Action OnCancel;                               // Called when Cancel is pressed.
 
+        [SerializeField]
+        private PlayerInput _input;
+
 
         [SerializeField] private float m_DoubleClickTime = 0.3f;    //The max time allowed between double clicks
         [SerializeField] private float m_SwipeWidth = 0.3f;         //The width of a swipe
@@ -47,6 +51,26 @@ namespace VRStandardAssets.Utils
             CheckInput();
         }
 
+        public void Press(InputAction.CallbackContext context)
+        {
+             if (context.phase==InputActionPhase.Started)
+            {
+                // When Fire1 is pressed record the position of the mouse.
+                m_MouseDownPosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            
+                // If anything has subscribed to OnDown call it.
+                if (OnDown != null)
+                    OnDown();
+            }
+
+            // This if statement is to gather information about the mouse when the button is up.
+             if (context.phase==InputActionPhase.Canceled)
+             {
+                // When Fire1 is released record the position of the mouse.
+                m_MouseUpPosition = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
+
+            }
+        }
 
         private void CheckInput()
         {
@@ -64,7 +88,7 @@ namespace VRStandardAssets.Utils
             }
 
             // This if statement is to gather information about the mouse when the button is up.
-            if (Input.GetButtonUp ("Fire1"))
+            if (Input.GetButtonUp("Fire1"))
             {
                 // When Fire1 is released record the position of the mouse.
                 m_MouseUpPosition = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
