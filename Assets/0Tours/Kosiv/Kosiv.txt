@@ -72,7 +72,7 @@
                 }
             ],
             "NodePosition": {
-                "x": 210.0,
+                "x": 150.0,
                 "y": -120.0
             },
             "Name": "bazar-dron",
@@ -261,6 +261,15 @@
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.7433333,
+                        "y": 0.4135593
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
@@ -276,10 +285,20 @@
             "MediaName": "keramika",
             "EntryYaw": 0.0,
             "UID": -2058290560,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.2941177,
+                        "y": 0.5220207
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": 30.0,
-                "y": 300.0
+                "y": 240.0
             },
             "Name": "keramika",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -302,8 +321,8 @@
                 }
             ],
             "NodePosition": {
-                "x": 180.0,
-                "y": 30.0
+                "x": 150.0,
+                "y": 0.0
             },
             "Name": "koka",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -398,6 +417,15 @@
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.3529412,
+                        "y": 0.4080311
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
@@ -413,7 +441,17 @@
             "MediaName": "mykolai-in",
             "EntryYaw": 0.0,
             "UID": -1311264000,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 908823040,
+                    "MappedPosition": {
+                        "x": 0.1253197,
+                        "y": 0.5790156
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -240.0,
                 "y": 120.0
@@ -443,7 +481,7 @@
                         "x": 0.5272579,
                         "y": 0.5424217
                     },
-                    "IconIndex": 1,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -452,7 +490,7 @@
                         "x": 0.413751,
                         "y": 0.5078254
                     },
-                    "IconIndex": 2,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -461,7 +499,7 @@
                         "x": 0.7628153,
                         "y": 0.4781713
                     },
-                    "IconIndex": 3,
+                    "IconIndex": 5,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -470,7 +508,7 @@
                         "x": 0.04515867,
                         "y": 0.5350082
                     },
-                    "IconIndex": 4,
+                    "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -479,7 +517,7 @@
                         "x": 0.07078926,
                         "y": 0.5399505
                     },
-                    "IconIndex": 5,
+                    "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -488,7 +526,7 @@
                         "x": 0.09641986,
                         "y": 0.4954695
                     },
-                    "IconIndex": 6,
+                    "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -497,7 +535,7 @@
                         "x": 0.140358,
                         "y": 0.3323723
                     },
-                    "IconIndex": 7,
+                    "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -607,11 +645,20 @@
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -128617088,
+                    "MappedPosition": {
+                        "x": 0.5473146,
+                        "y": 0.0
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
-                "x": -390.0,
-                "y": -180.0
+                "x": -360.0,
+                "y": -120.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -643,8 +690,8 @@
                 }
             ],
             "NodePosition": {
-                "x": 210.0,
-                "y": 90.0
+                "x": 150.0,
+                "y": 120.0
             },
             "Name": "pereprava",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -655,9 +702,19 @@
             "MediaName": "petrychuk",
             "EntryYaw": 0.0,
             "UID": -273823872,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": -1913083776,
+                    "MappedPosition": {
+                        "x": 0.5242967,
+                        "y": 0.4443005
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
-                "x": 210.0,
+                "x": 150.0,
                 "y": 240.0
             },
             "Name": "petrychuk",
@@ -675,6 +732,15 @@
                     "MappedPosition": {
                         "x": 0.5819529,
                         "y": 0.6338339
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1946263168,
+                    "MappedPosition": {
+                        "x": 0.8516624,
+                        "y": 0.361399
                     },
                     "IconIndex": 0,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -783,7 +849,17 @@
             "MediaName": "valylo-in",
             "EntryYaw": 0.0,
             "UID": -1601677568,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": 1498781952,
+                    "MappedPosition": {
+                        "x": 0.5421995,
+                        "y": 0.5971503
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
                 "x": -240.0,
                 "y": 240.0
