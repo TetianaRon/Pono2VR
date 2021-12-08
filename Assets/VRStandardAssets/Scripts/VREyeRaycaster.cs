@@ -10,6 +10,8 @@ namespace VRStandardAssets.Utils
     public class VREyeRaycaster : MonoBehaviour
     {
         public event Action<RaycastHit> OnRaycasthit;                   // This event is called every frame that the user's gaze is over a collider.
+        public event Action<RaycastHit> OnRaycastStopHit;                   // This event is called every frame that the user's gaze is over a collider.
+        private bool _wasHit = false;
 
 
         [SerializeField] private Transform m_Camera;
@@ -91,9 +93,17 @@ namespace VRStandardAssets.Utils
 
                 if (OnRaycasthit != null)
                     OnRaycasthit(hit);
+                _wasHit = true;
             }
             else
             {
+                if (_wasHit)
+                {
+                    if(OnRaycastStopHit!=null)
+                    OnRaycastStopHit(hit);
+                    _wasHit = false;
+                }
+
                 // Nothing was hit, deactive the last interactive item.
                 DeactiveLastInteractible();
                 m_CurrentInteractible = null;

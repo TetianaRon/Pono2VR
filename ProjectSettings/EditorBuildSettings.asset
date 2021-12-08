@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Kol4ava.unity
     guid: c1c41dea07c63c0489ebca31ffe21372
   - enabled: 1
+    path: Assets/Scenes/Tustan.unity
+    guid: ad7eaba061cb53c4e822a615304df123
+  - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 1c5fe2bf037ade84ca9ed9d97b0e1b97
   m_configObjects:

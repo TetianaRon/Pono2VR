@@ -1,0 +1,47 @@
+► Title - 
+	Error while applying automatic task
+▬ Message - 
+	A task was canceled.
+○ Type - 
+	System.Threading.Tasks.TaskCanceledException
+♦ [Version] Date/Hour - 
+	[2.28.2] 12/08/2021 15:10:11
+▲ Source - 
+	mscorlib
+▼ TargetSite - 
+	Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+♠ StackTrace - 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   at ScreenToGif.Windows.Editor.MouseClicksAsync(MouseClicksModel model)
+   at ScreenToGif.Windows.Editor.Load()
+
+----------------------------------
+
+► Title - 
+	Error in loading frames
+▬ Message - 
+	A task was canceled.
+○ Type - 
+	System.Threading.Tasks.TaskCanceledException
+♦ [Version] Date/Hour - 
+	[2.28.2] 12/08/2021 15:10:11
+▲ Source - 
+	mscorlib
+▼ TargetSite - 
+	Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+♠ StackTrace - 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   at ScreenToGif.Windows.Editor.Load()
+
+----------------------------------
+

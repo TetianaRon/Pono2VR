@@ -30,6 +30,8 @@ namespace VRStandardAssets.Utils
 
         [SerializeField]
         private PlayerInput _input;
+        [SerializeField]
+        private VREyeRaycaster _eyeRaycaster;
 
 
         [SerializeField] private float m_DoubleClickTime = 0.3f;    //The max time allowed between double clicks
@@ -46,11 +48,16 @@ namespace VRStandardAssets.Utils
         public float DoubleClickTime{ get { return m_DoubleClickTime; } }
 
 
+        public void OnEnable()
+        {
+            _eyeRaycaster.OnRaycasthit += (hit) => {OnDown?.Invoke(); };
+            _eyeRaycaster.OnRaycastStopHit += (hit) => {OnUp?.Invoke(); };
+
+        }
+
         private void Update()
         {
             CheckInput();
-                if (OnDown != null)
-                    OnDown();
         }
 
         public void Press(InputAction.CallbackContext context)
@@ -222,4 +229,4 @@ namespace VRStandardAssets.Utils
             OnUp = null;
         }
     }
-}
+} 
