@@ -45,3 +45,20 @@
 
 ----------------------------------
 
+► Title - 
+	Removing event handlers
+▬ Message - 
+	Object reference not set to an instance of an object.
+○ Type - 
+	System.NullReferenceException
+♦ [Version] Date/Hour - 
+	[2.28.2] 12/08/2021 15:30:52
+▲ Source - 
+	ScreenToGif
+▼ TargetSite - 
+	Void RemoveRoutedEventHandlers(System.Windows.UIElement, System.Windows.RoutedEvent)
+♠ StackTrace - 
+   at ScreenToGif.Util.Other.RemoveRoutedEventHandlers(UIElement element, RoutedEvent routedEvent)
+
+----------------------------------
+

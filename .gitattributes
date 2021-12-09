@@ -1,3 +1,5 @@
 *.unityweb filter=lfs diff=lfs merge=lfs -text
 Page/Build/Page.data.unityweb filter=lfs diff=lfs merge=lfs -text
 Page/Build/Page.framework.js.unityweb filter=lfs diff=lfs merge=lfs -text
+Assets/Art/MenuAnimation.psd filter=lfs diff=lfs merge=lfs -text
+Assets/Art/MenuAnimation.psd filter=lfs diff=lfs merge=lfs -text

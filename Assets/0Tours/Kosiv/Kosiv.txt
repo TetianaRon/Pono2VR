@@ -13,7 +13,7 @@
                         "x": 0.4756098,
                         "y": 0.4320987
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -22,7 +22,7 @@
                         "x": 0.587184,
                         "y": 0.4350707
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -31,7 +31,7 @@
                         "x": 0.5963383,
                         "y": 0.5278269
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -40,7 +40,7 @@
                         "x": 0.63034,
                         "y": 0.4377209
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -49,7 +49,7 @@
                         "x": 0.6617262,
                         "y": 0.4668728
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -58,7 +58,7 @@
                         "x": 0.6931124,
                         "y": 0.5225266
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -67,7 +67,7 @@
                         "x": 0.7297297,
                         "y": 0.469523
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -91,7 +91,7 @@
                         "x": 0.7304879,
                         "y": 0.362963
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -100,7 +100,7 @@
                         "x": 0.6081081,
                         "y": 0.0
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -109,7 +109,7 @@
                         "x": 0.2720139,
                         "y": 0.4801237
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -133,7 +133,7 @@
                         "x": 0.4956408,
                         "y": 0.3158128
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -142,7 +142,7 @@
                         "x": 0.3609416,
                         "y": 0.3052121
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -166,7 +166,7 @@
                         "x": 0.1841464,
                         "y": 0.3481481
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -175,7 +175,7 @@
                         "x": 0.5244115,
                         "y": 0.4377209
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -184,7 +184,7 @@
                         "x": 0.5610288,
                         "y": 0.4933746
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -193,7 +193,7 @@
                         "x": 0.6172624,
                         "y": 0.3979682
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -202,7 +202,7 @@
                         "x": 0.9285091,
                         "y": 0.2230566
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -226,7 +226,7 @@
                         "x": 0.9363557,
                         "y": 0.4483216
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -235,7 +235,7 @@
                         "x": 0.7428073,
                         "y": 0.4324206
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -259,7 +259,7 @@
                         "x": 0.03792502,
                         "y": 0.4668728
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -268,7 +268,7 @@
                         "x": 0.7433333,
                         "y": 0.4135593
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -292,7 +292,7 @@
                         "x": 0.2941177,
                         "y": 0.5220207
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -316,7 +316,7 @@
                         "x": 0.9507411,
                         "y": 0.4271202
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -340,7 +340,7 @@
                         "x": 0.2304878,
                         "y": 0.4691358
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -349,7 +349,7 @@
                         "x": 0.9847428,
                         "y": 0.4854241
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -373,7 +373,7 @@
                         "x": 0.0,
                         "y": 0.6098766
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -382,7 +382,7 @@
                         "x": 0.03170732,
                         "y": 0.6222222
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -391,7 +391,7 @@
                         "x": 0.7872711,
                         "y": 0.469523
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -415,7 +415,7 @@
                         "x": 0.03007847,
                         "y": 0.6258834
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -424,7 +424,7 @@
                         "x": 0.3529412,
                         "y": 0.4080311
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -448,7 +448,7 @@
                         "x": 0.1253197,
                         "y": 0.5790156
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -469,10 +469,10 @@
                 {
                     "TargetNodeUID": 1498781952,
                     "MappedPosition": {
-                        "x": 0.5284788,
-                        "y": 0.5424218
+                        "x": 0.5502368,
+                        "y": 0.514801
                     },
-                    "IconIndex": 5,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -481,7 +481,7 @@
                         "x": 0.5272579,
                         "y": 0.5424217
                     },
-                    "IconIndex": 5,
+                    "IconIndex": 4,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -508,7 +508,7 @@
                         "x": 0.04515867,
                         "y": 0.5350082
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -517,7 +517,7 @@
                         "x": 0.07078926,
                         "y": 0.5399505
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -526,7 +526,7 @@
                         "x": 0.09641986,
                         "y": 0.4954695
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -535,7 +535,7 @@
                         "x": 0.140358,
                         "y": 0.3323723
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -544,7 +544,7 @@
                         "x": 0.14524,
                         "y": 0.5053542
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -553,7 +553,7 @@
                         "x": 0.06224573,
                         "y": 0.4559308
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -562,7 +562,7 @@
                         "x": 0.06224573,
                         "y": 0.4559308
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -571,7 +571,7 @@
                         "x": 0.007323027,
                         "y": 0.5300659
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -580,7 +580,7 @@
                         "x": 0.007323027,
                         "y": 0.5300659
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -589,7 +589,7 @@
                         "x": 0.2868186,
                         "y": 0.4163921
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -598,7 +598,7 @@
                         "x": 0.2379984,
                         "y": 0.4855848
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -607,7 +607,7 @@
                         "x": 0.7628153,
                         "y": 0.4781713
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -616,7 +616,7 @@
                         "x": 0.4601302,
                         "y": 0.5498352
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -625,7 +625,7 @@
                         "x": 0.7799023,
                         "y": 0.604201
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -634,7 +634,7 @@
                         "x": 0.7799024,
                         "y": 0.604201
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -643,7 +643,7 @@
                         "x": 0.3551668,
                         "y": 0.5053542
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -652,13 +652,13 @@
                         "x": 0.5473146,
                         "y": 0.0
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
-                "x": -360.0,
-                "y": -120.0
+                "x": -480.0,
+                "y": -180.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -676,7 +676,7 @@
                         "x": 0.418483,
                         "y": 0.3025619
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -685,7 +685,7 @@
                         "x": 0.2746295,
                         "y": 0.3158128
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -709,7 +709,7 @@
                         "x": 0.5242967,
                         "y": 0.4443005
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -733,7 +733,7 @@
                         "x": 0.5819529,
                         "y": 0.6338339
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -742,7 +742,7 @@
                         "x": 0.8516624,
                         "y": 0.361399
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -766,7 +766,7 @@
                         "x": 0.8212729,
                         "y": 0.4377209
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -790,7 +790,7 @@
                         "x": 0.5806451,
                         "y": 0.3052121
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -799,7 +799,7 @@
                         "x": 0.663034,
                         "y": 0.3052121
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -823,7 +823,7 @@
                         "x": 0.7297297,
                         "y": 0.3158128
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -832,7 +832,7 @@
                         "x": 0.847428,
                         "y": 0.3449647
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -856,7 +856,7 @@
                         "x": 0.5421995,
                         "y": 0.5971503
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
@@ -880,7 +880,7 @@
                         "x": 0.8121185,
                         "y": 0.4801237
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -889,7 +889,7 @@
                         "x": 0.9049695,
                         "y": 0.2283569
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -898,7 +898,7 @@
                         "x": 0.7114211,
                         "y": 0.2548587
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -907,7 +907,7 @@
                         "x": 0.63034,
                         "y": 0.109099
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -916,7 +916,7 @@
                         "x": 0.5453357,
                         "y": 0.2204064
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
