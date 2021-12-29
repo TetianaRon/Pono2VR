@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DigitalSalmon.C360 {
 	[AddComponentMenu("Complete360Tour/Hotspots/AnimatedUIHotspot")]
@@ -11,6 +12,10 @@ namespace DigitalSalmon.C360 {
 
 		[Subheader("Animation")]
 
+		[SerializeField]
+		protected GameObject ExtraText ;
+		[SerializeField]
+		protected Text LocationText  ;
 		[SerializeField]
 		protected float triggerDuration = 1.5f;
 
@@ -57,7 +62,19 @@ namespace DigitalSalmon.C360 {
 		}
 
 		protected virtual void OnHoveredAlphaUpdate(float alpha) {
-			if (renderer != null) renderer.material.SetFloat("_FillValue", alpha);
+
+            if (ExtraText != null)
+            {
+                if (alpha > 0.1f)
+                {
+                    LocationText.text = Element.TargetNodeData.NiceName;
+                    ExtraText.SetActive(true);
+                }
+                else
+                    ExtraText.SetActive(false);
+            }
+
+            if (renderer != null) renderer.material.SetFloat("_FillValue", alpha);
 		}
 
 		private IEnumerator HoverCoroutine() {

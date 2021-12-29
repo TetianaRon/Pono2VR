@@ -1,10 +1,10 @@
 # Todo 
 
 - [x]A Update Logo
-- [x] A Remove Dev name
-- A Location names
+- [x] Remove Dev name
+- [x] Location names
+- [ ] Next Prev location tour
 - A Drones,Arrows,Video 
-- B Next Prev location tour
 
 - B HQ images and split build
 - C Add vidoes
