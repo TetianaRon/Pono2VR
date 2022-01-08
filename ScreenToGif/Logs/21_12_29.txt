@@ -127,3 +127,23 @@ video:84021kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing
 
 ----------------------------------
 
+► Title - 
+	It was not possible to access the webcam feed.
+▬ Message - 
+	Exception from HRESULT: 0x80040217
+○ Type - 
+	System.Runtime.InteropServices.COMException
+♦ [Version] Date/Hour - 
+	[2.28.2] 12/29/2021 16:13:03
+▲ Source - 
+	mscorlib
+▼ TargetSite - 
+	Void ThrowExceptionForHRInternal(Int32, IntPtr)
+♠ StackTrace - 
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at ScreenToGif.Webcam.DirectX.CaptureWebcam.RenderGraph()
+   at ScreenToGif.Webcam.DirectX.CaptureWebcam.StartPreview()
+   at ScreenToGif.Controls.WebcamControl.Refresh()
+
+----------------------------------
+

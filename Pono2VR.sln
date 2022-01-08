@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D1946DBF-2E0B-7265-8D64-C02E78C06E29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTour", "AutoTour.csproj", "{4131B1B2-6950-FB62-1000-566E382CFFAD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSerialize", "WebSerialize.csproj", "{40E4FFF2-4EBC-0CAF-70F7-D66B1718AB7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{414AE832-4964-BDEC-83F1-4BD804D6B143}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{0C96244B-E120-A08F-5931-71090B6C9418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pono2VR.Tests", "Tests\Pono2VR.Tests\Pono2VR.Tests.csproj", "{467CE86A-3CA1-4EAC-B0D3-CA46CAAB2642}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{D1946DBF-2E0B-7265-8D64-C02E78C06E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1946DBF-2E0B-7265-8D64-C02E78C06E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1946DBF-2E0B-7265-8D64-C02E78C06E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4131B1B2-6950-FB62-1000-566E382CFFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4131B1B2-6950-FB62-1000-566E382CFFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4131B1B2-6950-FB62-1000-566E382CFFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4131B1B2-6950-FB62-1000-566E382CFFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40E4FFF2-4EBC-0CAF-70F7-D66B1718AB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40E4FFF2-4EBC-0CAF-70F7-D66B1718AB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E4FFF2-4EBC-0CAF-70F7-D66B1718AB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,6 +39,10 @@ Global
 		{0C96244B-E120-A08F-5931-71090B6C9418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C96244B-E120-A08F-5931-71090B6C9418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C96244B-E120-A08F-5931-71090B6C9418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467CE86A-3CA1-4EAC-B0D3-CA46CAAB2642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467CE86A-3CA1-4EAC-B0D3-CA46CAAB2642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467CE86A-3CA1-4EAC-B0D3-CA46CAAB2642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467CE86A-3CA1-4EAC-B0D3-CA46CAAB2642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

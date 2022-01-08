@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Complete360Tour\Runtime\Tests\JsonParsingTest.cs" />
+    <Compile Include="Assets\Complete360Tour\Runtime\Tests\AutoTourTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Complete360Tour\Runtime\Tests\Tests.asmdef" />
@@ -691,6 +692,10 @@
     <ProjectReference Include="WebSerialize.csproj">
       <Project>{40E4FFF2-4EBC-0CAF-70F7-D66B1718AB7B}</Project>
       <Name>WebSerialize</Name>
+    </ProjectReference>
+    <ProjectReference Include="AutoTour.csproj">
+      <Project>{4131B1B2-6950-FB62-1000-566E382CFFAD}</Project>
+      <Name>AutoTour</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

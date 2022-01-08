@@ -4,7 +4,7 @@
 - [x] Remove Dev name
 - [x] Location names
 - [ ] Next Prev location tour
-- A Drones,Arrows,Video 
+- [ ] Drones,Arrows,Video 
 
 - B HQ images and split build
 - C Add vidoes
