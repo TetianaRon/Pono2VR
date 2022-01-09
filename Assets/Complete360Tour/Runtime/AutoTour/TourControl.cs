@@ -1,11 +1,20 @@
 using System;
 
-namespace Assets.Complete360Tour.Runtime.AutoTour
+    namespace Assets.Complete360Tour.Runtime.AutoTour
 {
-    
+    //todo: Write tests for switched media
+    public interface IViewMediaSwitcher
+    {
+        event Action<string> OnSwitchMedia;
+        event Action<float> OnFade;
+        event Action<bool> OnEnable;
+        void Update(float time);
+
+    }
     public interface ITourControl
     {
         event Action<string> OnSwitchNode;
+
         public string Current { get; }
         public string GoNext();
         public string GoPrev();

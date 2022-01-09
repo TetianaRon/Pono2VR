@@ -10,8 +10,7 @@
 > stage 1 Logic
 
 - [ ] Names apear disapear Logic + image support
-- [ ] Name apeear on couple secons when you open location
-
+- [ ] Name apeear on couple seconds when you open location
 - [ ] Parsed data from web page logic(UML structure)
 - [ ] Language switch logic
 
@@ -44,7 +43,7 @@ At 10:30 AM
 
 - [ ] HotspotFix as in web and (Photo, Drone, Video)
 - [ ] At location «Гора Стримба»  add surrounding tops
-
+t
 - *EXTRA*
 	- [ ]  Made language work
 	- [ ]  Add fun facts and photos
@@ -75,5 +74,6 @@ At 10:30 AM
 	- [ ]  Android Autostart
 	- [ ] Check for my improvment's list
 	- [ ] Check all telegram messages and WEB for other improvment possibilities and add them
+	- [ ] Tweens on fadeIn's fadeouts
 
 13:00 Call or something

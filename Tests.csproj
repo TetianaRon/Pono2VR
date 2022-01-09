@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{0C96244B-E120-A08F-5931-71090B6C9418}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,12 +58,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Complete360Tour\Runtime\Tests\JsonParsingTest.cs" />
+    <Compile Include="Assets\Complete360Tour\Runtime\Tests\HotspotNameLogicTest.cs" />
     <Compile Include="Assets\Complete360Tour\Runtime\Tests\AutoTourTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Complete360Tour\Runtime\Tests\Tests.asmdef" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="NSubstitute">
+      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\NSubstitute.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>B:\MyPrograms\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

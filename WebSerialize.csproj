@@ -306,8 +306,14 @@
     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
       <HintPath>B:\MyPrograms\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="NSubstitute">
+      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\NSubstitute.dll</HintPath>
+    </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.7.9\Runtime\ThirdParty\clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="DigitalSalmon.FullSerializer">
       <HintPath>Assets\Complete360Tour\Plugins\DigitalSalmon.FullSerializer.dll</HintPath>
@@ -323,6 +329,9 @@
     </Reference>
     <Reference Include="Complete360Tour.Editor">
       <HintPath>Assets\Complete360Tour\Plugins\Editor\Complete360Tour.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="NReco.VideoConverter">
       <HintPath>Assets\Complete360Tour\Plugins\Editor\NReco.VideoConverter.dll</HintPath>

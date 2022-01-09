@@ -2,8 +2,6 @@
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=be29ec8c_002D6a29_002D4533_002Da0a9_002Db18ad70ac93e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AutoTourTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::0C96244B-E120-A08F-5931-71090B6C9418::.NETFramework,Version=v4.7.1::AutoTourTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::467CE86A-3CA1-4EAC-B0D3-CA46CAAB2642::.NETCoreApp,Version=v3.1::Pono2VR.Tests.Tests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::0C96244B-E120-A08F-5931-71090B6C9418::.NETFramework,Version=v4.7.1::JsonParsingTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0C96244B-E120-A08F-5931-71090B6C9418::.NETFramework,Version=v4.7.1::Assets.Complete360Tour.Runtime.Tests.HotspotNameLogicTest.Test00TimeUpdate&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

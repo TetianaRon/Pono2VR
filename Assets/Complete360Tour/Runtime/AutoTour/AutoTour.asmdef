@@ -1,3 +1,16 @@
 {
-	"name": "AutoTour"
+    "name": "AutoTour",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8ba1cf4afa640804e94ba034367104ab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
