@@ -2,6 +2,7 @@ using System;
 
 namespace Assets.Complete360Tour.Runtime.AutoTour
 {
+    
     public interface ITourControl
     {
         event Action<string> OnSwitchNode;
@@ -24,14 +25,33 @@ namespace Assets.Complete360Tour.Runtime.AutoTour
 
         public event Action<string> OnSwitchNode;
         public string Current => _members[_index];
+
+        private void MembersCheck()
+        {
+            if (_members == null || _members.Length == 0)
+                throw new Exception($"_members of tour is NullOrEmpty");
+        }
+
         public string GoNext()
         {
-            throw new NotImplementedException();
+            MembersCheck();
+
+            if (++_index >= _members.Length)
+                _index = 0; 
+
+            OnSwitchNode?.Invoke(_members[_index]); 
+            return _members[_index];
         }
 
         public string GoPrev()
         {
-            throw new NotImplementedException();
+            MembersCheck();
+
+            if (--_index < 0)
+                _index = _members.Length-1; 
+
+            OnSwitchNode?.Invoke(_members[_index]); 
+            return _members[_index];
         }
     }
 }
