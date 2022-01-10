@@ -15,18 +15,23 @@ namespace DigitalSalmon.C360 {
 
 		[SerializeField]
 		protected Hotspot hotspotTemplate;
+		[SerializeField]
+		protected Transform[] _preChild;
 
 		//-----------------------------------------------------------------------------------------
 		// Private Fields:
 		//-----------------------------------------------------------------------------------------
 
 		private HotspotPool hotspotPool;
+        private int _switchCount;
 
-		//-----------------------------------------------------------------------------------------
+        //-----------------------------------------------------------------------------------------
 		// Unity Lifecycle:
 		//-----------------------------------------------------------------------------------------
 
-		protected void Awake() {
+		protected void Awake()
+        {
+
 			if (hotspotTemplate == null) {
 				Debug.LogWarning("No Hotspot template assigned. Please assign a Hotspot template.");
 				return;
@@ -59,6 +64,15 @@ namespace DigitalSalmon.C360 {
 		//-----------------------------------------------------------------------------------------
 
 		private void SwitchElements(HotspotElement[] elements) {
+			
+
+			if(_switchCount>1)
+                foreach (var child in _preChild)
+                    child.gameObject.SetActive(false);
+            
+            _switchCount++;
+			
+
 			if (hotspotPool == null) return;
 
 			foreach (Hotspot hotspot in hotspotPool.Hotspots) {
@@ -74,6 +88,8 @@ namespace DigitalSalmon.C360 {
 				hotspot.SwitchElement(elements[i]);
 				hotspot.OnTrigger += Hotspot_OnTrigger;
 			}
-		}
+
+
+        }
 	}
 }

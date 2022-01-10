@@ -9,12 +9,14 @@ namespace Assets.Complete360Tour.Runtime.Tests
     {
         private HotspotNameLogic _logic;
         private IFadableName _fader;
+        private string _title;
 
         [SetUp]
         public void SetUp()
         {
             _fader = Substitute.For<IFadableName>();
-            _logic = new HotspotNameLogic(_fader, 0.5f, "Hello");
+            _title = "Hello";
+            _logic = new HotspotNameLogic(_fader, 0.5f, _title);
         }
 
         [Test]
@@ -28,12 +30,14 @@ namespace Assets.Complete360Tour.Runtime.Tests
         public void Test01FadeIn()
         {
 
-            Assert.AreEqual(0.5f,_logic.Time);
+            _logic.PressDown();
+            _fader.Received().FadeIn(_title);
         }
 
         [Test]
         public void Test01FadeOut()
         {
+             Assert.AreEqual(0.5f,_logic.Time);
         }
     }
 }

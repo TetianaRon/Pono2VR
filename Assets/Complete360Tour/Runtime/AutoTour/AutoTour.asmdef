@@ -1,9 +1,7 @@
 {
     "name": "AutoTour",
     "rootNamespace": "",
-    "references": [
-        "GUID:8ba1cf4afa640804e94ba034367104ab"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

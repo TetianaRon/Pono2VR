@@ -16,7 +16,10 @@
     "precompiledReferences": [
         "nunit.framework.dll",
         "Newtonsoft.Json.dll",
-        "Complete360Tour.dll"
+        "Complete360Tour.dll",
+        "System.Threading.Tasks.Extensions.dll",
+        "Castle.Core.dll",
+        "NSubstitute.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [

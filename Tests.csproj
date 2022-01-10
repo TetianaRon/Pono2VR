@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{0C96244B-E120-A08F-5931-71090B6C9418}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -54,9 +53,6 @@
     <UnityVersion>2021.1.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Complete360Tour\Runtime\Tests\JsonParsingTest.cs" />
     <Compile Include="Assets\Complete360Tour\Runtime\Tests\HotspotNameLogicTest.cs" />
     <Compile Include="Assets\Complete360Tour\Runtime\Tests\AutoTourTest.cs" />
@@ -65,9 +61,6 @@
     <None Include="Assets\Complete360Tour\Runtime\Tests\Tests.asmdef" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="NSubstitute">
-      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\NSubstitute.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>B:\MyPrograms\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -328,6 +321,15 @@
     </Reference>
     <Reference Include="Complete360Tour">
       <HintPath>Assets\Complete360Tour\Plugins\Complete360Tour.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NSubstitute">
+      <HintPath>Library\PackageCache\net.tnrd.nsubstitute@4.2.2\Runtime\NSubstitute.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>B:\MyPrograms\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -15,6 +15,11 @@ namespace Assets.Complete360Tour.Runtime.AutoTour
         event Action OnFadedOut; 
 
         event Action<float> OnUpdateTime;
+
+        /// <summary>
+        /// false - means we can start FadeIn becasue it's isnt started
+        /// true - means we can FadeOut becase it's Active
+        /// </summary>
         bool IsActive { get;}
     }
 
@@ -25,7 +30,7 @@ namespace Assets.Complete360Tour.Runtime.AutoTour
 
         protected IFadableName fader;
         public float Time { get; protected set; }
-        protected float lastPressedTime;
+        protected float lastPress;
         protected readonly float unpressedTimeout;
 
         protected string Title { get; }
@@ -42,29 +47,35 @@ namespace Assets.Complete360Tour.Runtime.AutoTour
 
         private void UpdateTime(float time)
         {
-            this.Time = time;
-
-            HideTimeoutUpdate();
+            this.Time = time; 
+            HideTimeoutCheck();
 
         }
 
-        protected abstract void HideTimeoutUpdate();
+        protected abstract void HideTimeoutCheck();
 
 
-        public void Pressed()
+        public void PressDown()
         {
-            lastPressedTime = Time;
+            if (!fader.IsActive)
+            {
+                fader.FadeIn(Title);
+            }else if (Time - lastPress > unpressedTimeout)
+            {
+                 fader.FadeOut(Title);
+            }
 
+            lastPress = Time; 
         }
 
     }
 
     public class HotspotNameLogic: HotspotNameLogicBase<IFadableName>
     {
-        protected override void HideTimeoutUpdate()
+        protected override void HideTimeoutCheck()
         {
 
-            if (IsShowing && Time > lastPressedTime + unpressedTimeout)
+            if (IsShowing && Time > lastPress + unpressedTimeout)
             {
                 IsShowing = false;
                 fader.FadeOut(Title);
