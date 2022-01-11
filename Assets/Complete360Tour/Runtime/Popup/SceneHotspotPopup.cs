@@ -7,7 +7,6 @@ namespace DigitalSalmon.C360
     public class SceneHotspotPopup:Popup
     {
         
-	[FormerlySerializedAs("targetMediaName")]
     [Header("Media Hotspot")]
 	[Subheader("Target")]
 	[SerializeField]

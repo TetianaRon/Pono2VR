@@ -4,5 +4,6 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::0C96244B-E120-A08F-5931-71090B6C9418::.NETFramework,Version=v4.7.1::Assets.Complete360Tour.Runtime.Tests.HotspotNameLogicTest.Test00TimeUpdate&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::0C96244B-E120-A08F-5931-71090B6C9418::.NETFramework,Version=v4.7.1::Assets.Complete360Tour.Runtime.Tests.HotspotNameLogicTest.Test01FadeIn&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0C96244B-E120-A08F-5931-71090B6C9418::.NETFramework,Version=v4.7.1::Assets.Complete360Tour.Runtime.Tests.AutoTourTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

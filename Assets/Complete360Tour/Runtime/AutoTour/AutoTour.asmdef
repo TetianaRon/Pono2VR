@@ -1,7 +1,9 @@
 {
     "name": "AutoTour",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        ""
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

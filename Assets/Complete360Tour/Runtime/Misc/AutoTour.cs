@@ -1,8 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using Assets.Complete360Tour.Runtime.AutoTour;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DigitalSalmon.C360 {
-	public class AutoTour : MonoBehaviour {
+
+    public class AutoTour : MonoBehaviour {
 		//-----------------------------------------------------------------------------------------
 		// Events:
 		//-----------------------------------------------------------------------------------------
@@ -17,34 +21,74 @@ namespace DigitalSalmon.C360 {
 		[SerializeField]
 		protected string[] nodeNames;
 
-		[Tooltip("If true the AutoTour will begin as soon as you press Play.")]
-		[SerializeField]
-		protected bool autoStart;
 
-		[Tooltip("If true the AutoTour will loop back to the first node when it reaches the end")]
-		[SerializeField]
-		protected bool loop;
-
-		[Tooltip("The length of time to spend in each node")]
-		[SerializeField]
-		protected float nodeDuration;
-
+        //-----------------------------------------------------------------------------------------
+		// public Fields:
 		//-----------------------------------------------------------------------------------------
-		// Private Fields:
-		//-----------------------------------------------------------------------------------------
+
+
+        private float _lastSwitch;
 
 		private Complete360Tour complete360Tour;
+        private TourControl _tourControl;
 
-		//-----------------------------------------------------------------------------------------
+        [SerializeField]
+        private  SceneMenu _sceneMenu; 
+        private  AutoTourOptions _autoTourOptions; 
+        //-----------------------------------------------------------------------------------------
 		// Unity Lifecycle:
 		//-----------------------------------------------------------------------------------------
 
-		protected void Awake() { complete360Tour = GetComponent<Complete360Tour>(); }
+        protected void Awake()
+        {
+            _autoTourOptions = _sceneMenu.Options;
+            _lastSwitch = _autoTourOptions.startTimeout;
+            complete360Tour = GetComponent<Complete360Tour>();
+            _tourControl = new TourControl(nodeNames);
+        }
+
+        private void OnEnable()
+        {
+            complete360Tour.OnMediaSwitched += SwitchText;
+            _tourControl.OnSwitchNode += complete360Tour.GoToMedia;
+
+            _autoTourOptions.PrevButton.OnTrigger += Prev;
+            _autoTourOptions.NextButton.OnTrigger += Next;
+
+        }
+
+        private void OnDisable()
+        {
+            _tourControl.OnSwitchNode -= complete360Tour.GoToMedia;
+            complete360Tour.OnMediaSwitched -= SwitchText;
+            _autoTourOptions.PrevButton.OnTrigger -= Prev;
+            _autoTourOptions.NextButton.OnTrigger -= Next;
+        }
+
+        private void Next(Hotspot value)
+        {
+            _tourControl.GoNext();
+        }
+
+        private void Prev(Hotspot value)
+        {
+            _tourControl.GoPrev();
+        }
+
+
+        private void SwitchText(NodeData node)
+        {
+            _autoTourOptions.CurrentNode.text = node.NiceName;
+            _lastSwitch = Time.time;
+
+        }
+
+
 
 		protected IEnumerator Start() {
 			// Delay a frame to let C360 initialise.
 			yield return null;
-			if (autoStart) BeginAutoTour();
+			if (_autoTourOptions.autoStart) BeginAutoTour();
 		}
 
 		//-----------------------------------------------------------------------------------------
@@ -62,26 +106,19 @@ namespace DigitalSalmon.C360 {
 		private IEnumerator AutoTourCoroutine() {
 
 
-			WaitForSeconds wait = new WaitForSeconds(nodeDuration);
-			int index = 0;
+            yield return null;
 			while (true) {
-				
-				string nextNode = nodeNames[index];
-				complete360Tour.GoToMedia(nextNode);
 
-				index = GetNextIndex(index);
-				if (index == 0) {
-					if (Complete != null) Complete();
-					if (!loop) break;
-				}
+                yield return null;
+                if (_lastSwitch + _autoTourOptions.nodeDuration < Time.time)
+                {
+                    _tourControl.GoNext(); 
+                    _lastSwitch = Time.time;
 
-				yield return wait;
-			}
+                }
+                yield return null;
+            }
 		}
 
-		private int GetNextIndex(int index) {
-			if (index >= nodeNames.Length - 1) return 0;
-			return index + 1;
-		}
 	}
 }

@@ -18,7 +18,7 @@ public class JsonParsingTest
     private string _element =
         "                {\n \"TargetNodeUID\": -414708992,\n \"MappedPosition\": {\n \"x\": 0.6138855,\n \"y\": 0.4889026\n },\n \"IconIndex\": 0,\n \"$type\": \"DigitalSalmon.C360.HotspotElement\" } ";
 
-    private string _textAsset = "Assets/0Tours/Example/Kosiv.txt";
+    private string _textAsset = "Assets/0Tours/Kosiv/Kosiv.txt";
 
     [SetUp]
     public void SetUp()
@@ -127,6 +127,16 @@ public class JsonParsingTest
             Assert.IsInstanceOf<HotspotElement>(element);
             Assert.IsNotNull(((HotspotElement)element).TargetNodeData); 
         } 
+
+    }
+
+    [Test]
+    public void Test8ElementList()
+    {
+        foreach (var node in _tour.NodeDataList)
+        {
+            Debug.Log(node.NiceName);
+        }
 
     }
 

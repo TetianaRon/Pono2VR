@@ -4,9 +4,9 @@ namespace Assets.Complete360Tour.Runtime.AutoTour
 {
     public interface INodeDataManager
     {
-        ExtNodeData GetData(GUID Id);
+        ExtNodeData GetData(int Id);
         ExtNodeData GetDataByName(string Name);
-        GUID NameIntoGuid(string Name);
+        int NameIntoGuid(string Name);
         LanguageData SwitchLanguage(int langIndex);
 
     }
@@ -20,7 +20,7 @@ namespace Assets.Complete360Tour.Runtime.AutoTour
     //todo: Make singleton
     public class NodeDataManager : INodeDataManager
     {
-        public ExtNodeData GetData(GUID Id)
+        public ExtNodeData GetData(int Id)
         {
             throw new System.NotImplementedException();
         }
@@ -30,7 +30,7 @@ namespace Assets.Complete360Tour.Runtime.AutoTour
             throw new System.NotImplementedException();
         }
 
-        public GUID NameIntoGuid(string Name)
+        public int NameIntoGuid(string Name)
         {
             throw new System.NotImplementedException();
         }

@@ -34,7 +34,7 @@ namespace DigitalSalmon.C360 {
 		[Subheader("Primary Tour")]
 		[SerializeField]
 		[Tooltip("The tour data file you created using the 360 Tour panel.")]
-		protected TextAsset tourData;
+		public TextAsset tourData;
 
 		[SerializeField]
 		[Tooltip("Should the tour begin as soon as the scene loads.")]
@@ -150,6 +150,7 @@ namespace DigitalSalmon.C360 {
 		// Public Methods:
 		//-----------------------------------------------------------------------------------------
 
+        public event Action<NodeData> OnMediaSwitched;
 		/// <summary>
 		/// Instructs the MediaSwitch to move to a given NodeData.
 		/// </summary>
@@ -157,6 +158,8 @@ namespace DigitalSalmon.C360 {
 			if (nodeData == null) {
 				Debug.LogWarning("GoToMedia called but requested nodeData is null.");
 			}
+
+            OnMediaSwitched?.Invoke(nodeData);
 
 			switch (transitionStyle) {
 				case Transitions.None:
@@ -175,9 +178,7 @@ namespace DigitalSalmon.C360 {
 		/// Switches the MediaSwitch to the first piece of media.
 		/// </summary>
 		public void BeginTour() {
-			Debug.Log("Gettting First Media");
 			NodeData firstNodeData = GetFirstMedia();
-			Debug.Log("First NOde Data : "+firstNodeData.NiceName);
 			GoToMedia(firstNodeData);
 		}
 
