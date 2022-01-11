@@ -16,10 +16,7 @@
 
 > stage 1 Logic
 
-
-
 - [x] Names apear disapear Logic + image support
-
 - [ ] Parsed data from web page logic(UML structure)
 - [ ] Language switch logic
 
