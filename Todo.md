@@ -1,5 +1,17 @@
 # Todo 
 
+- Most important things
+
+- A Srimba heights 
+- A Fix points
+- A Specific Icon on specific Photo
+
+- A Text from WebPage
+
+- A language switch (Main Menu)
+- B add one video Kolchava
+
+
 ### Build Types
 
 - Functionality check
@@ -7,6 +19,8 @@
 - Final build
 
 # Plan
+
+- [ ] Integration tests for hotspots heights e.t.c 
 
 ## Extra
 
@@ -23,7 +37,6 @@
 03:00  Integration
 
 - [ ] Integration tests in Unity for (Back and forward)
-- [ ] Integration tests for hotspots heights e.t.c 
 - [ ] Integration tests for Languages
 - [ ] Integration tests for Images
 
