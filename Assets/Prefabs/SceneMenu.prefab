@@ -2363,8 +2363,9 @@ MonoBehaviour:
     PrevButton: {fileID: 3629370526045983618}
     NextButton: {fileID: 3629370526546720959}
   _camera: {fileID: 0}
-  _limitAngle: 40
-  _lerpRange: 40
+  _limitAngle: 50
+  _lerpRange: 28
+  _speed: 7
 --- !u!1 &3629370527502144628
 GameObject:
   m_ObjectHideFlags: 0

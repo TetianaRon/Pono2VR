@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ExtraText: {fileID: 2954762165755402486}
   LocationText: {fileID: 2924174836035857960}
-  triggerDuration: 1
+  triggerDuration: 1.75
 --- !u!114 &114476623677790402
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4186,24 +4186,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3629370527371743361, guid: 10f9f6d478bbb174abe5c4b05bcf6034,
         type: 3}
-      propertyPath: _speed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3629370527371743361, guid: 10f9f6d478bbb174abe5c4b05bcf6034,
-        type: 3}
       propertyPath: _camera
       value: 
       objectReference: {fileID: 788185763}
-    - target: {fileID: 3629370527371743361, guid: 10f9f6d478bbb174abe5c4b05bcf6034,
-        type: 3}
-      propertyPath: _lerpRange
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 3629370527371743361, guid: 10f9f6d478bbb174abe5c4b05bcf6034,
-        type: 3}
-      propertyPath: _limitAngle
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 3629370527371743363, guid: 10f9f6d478bbb174abe5c4b05bcf6034,
         type: 3}
       propertyPath: m_Name

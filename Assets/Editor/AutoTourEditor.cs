@@ -9,16 +9,18 @@ namespace Assets.Complete360Tour.Runtime.Tests
     {
         SerializedProperty _noteNames;
 
-    private string _textAsset = "Assets/0Tours/Kosiv/Kosiv.txt";
 
-
-    void OnEnable()
+ void OnEnable()
         {
             _noteNames = serializedObject.FindProperty("nodeNames");
         }
 
         public override void OnInspectorGUI()
         {
+
+            EditorGUILayout.LabelField("some");
+            serializedObject.Update();
+            base.OnInspectorGUI();
                 if (EditorGUILayout.LinkButton( "LoadAsset"))
                 {
 
@@ -29,6 +31,7 @@ namespace Assets.Complete360Tour.Runtime.Tests
                 
                     var text = completeTour.tourData.text;
                     var tour = TourConverter.ParseTour(text);
+                    
                     for (int i = 0; i < tour.NodeDataList.Count; i++)
                     {
                         _noteNames.InsertArrayElementAtIndex(i);
@@ -37,11 +40,9 @@ namespace Assets.Complete360Tour.Runtime.Tests
 
                     }
                 } 
-            base.OnInspectorGUI();
             //if (_noteNames.vector3Value.y < (target as DigitalSalmon.C360.AutoTour).transform.position.y)
 
 
-            serializedObject.Update();
             serializedObject.ApplyModifiedProperties();
         }
     }
