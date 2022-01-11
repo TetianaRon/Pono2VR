@@ -348,6 +348,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1204738248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &177199714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177199715}
+  - component: {fileID: 177199717}
+  - component: {fileID: 177199716}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &177199715
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177199714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1104900860}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &177199716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177199714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9d213589ef8d1eb479b41cb6bd45f037, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &177199717
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177199714}
+  m_CullTransparentMesh: 1
 --- !u!4 &192982781 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4792569003676390, guid: 2152a83dbf910b7488b6149889b9addf,
@@ -432,13 +507,43 @@ PrefabInstance:
     - target: {fileID: 114115164275978918, guid: 2152a83dbf910b7488b6149889b9addf,
         type: 3}
       propertyPath: m_Text
-      value: "\u041C\u0456\u0441\u0442\u043E\u043A"
+      value: "\u0421\u0442\u0440\u0438\u043C\u0431\u0430"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114115164275978918, guid: 2152a83dbf910b7488b6149889b9addf,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 114120783320632886, guid: 2152a83dbf910b7488b6149889b9addf,
         type: 3}
       propertyPath: m_Text
-      value: "\u041C\u0456\u0441\u0442\u043E\u043A \u0447\u0435\u0440\u0435\u0437
-        \u0440\u0456\u0447\u043A\u0443..."
+      value: "\u0412\u0438\u0441\u043E\u0442\u0430 \u0421\u0442\u0440\u0438\u043C\u0431\u0438
+        \u2014 1719 \u043C. \u0412\u0435\u0440\u0448\u0438\u043D\u0430 \u0442\u0440\u0438\u043A\u0443\u0442\u043D\u043E\u0457
+        \u0444\u043E\u0440\u043C\u0438, \u0443\u0442\u0432\u043E\u0440\u0435\u043D\u0430
+        \u0443 \u0434\u0440\u0456\u0431\u043D\u043E\u0437\u0435\u0440\u043D\u0438\u0441\u0442\u0438\u0445
+        \u043F\u0456\u0441\u043A\u043E\u0432\u0438\u043A\u0430\u0445 \u0433\u043B\u0438\u0431\u043E\u043A\u0438\u043C\u0438
+        \u0432\u043E\u0434\u043E\u0437\u0431\u0456\u0440\u043D\u0438\u043C\u0438
+        \u043B\u0456\u0439\u043A\u0430\u043C\u0438. \u0422\u0440\u0430\u043F\u043B\u044F\u044E\u0442\u044C\u0441\u044F
+        \u043C\u0430\u043B\u0456 \u043E\u0437\u0435\u0440\u0446\u044F, \u043A\u0430\u043C'\u044F\u043D\u0456
+        \u0440\u043E\u0437\u0441\u0438\u043F\u0438\u0449\u0430. \u041F\u0456\u0432\u043D\u0456\u0447\u043D\u043E-\u0437\u0430\u0445\u0456\u0434\u043D\u0456
+        \u0442\u0430 \u0441\u0445\u0456\u0434\u043D\u0456 \u0441\u0445\u0438\u043B\u0438
+        \u043A\u0440\u0443\u0442\u0456, \u043F\u0456\u0432\u0434\u0435\u043D\u043D\u043E-\u0441\u0445\u0456\u0434\u043D\u0438\u0439
+        \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u044F\u0442\u044C \u0443 \u0441\u0456\u0434\u043B\u043E\u0432\u0438\u043D\u0443,
+        \u044F\u043A\u043E\u044E \u0437'\u0454\u0434\u043D\u0443\u0454\u0442\u044C\u0441\u044F
+        \u0437 \u0433\u043E\u0440\u043E\u044E \u0421\u0442\u0440\u0438\u043C\u0438\u043D\u0456\u0441
+        (1652 \u043C). \u0412\u0435\u0440\u0448\u0438\u043D\u0430 \u0421\u0442\u0440\u0438\u043C\u0431\u0438
+        \u043C\u0456\u0441\u0446\u044F\u043C\u0438 \u0437\u0430\u0440\u043E\u0441\u043B\u0430
+        \u0433\u0456\u0440\u0441\u044C\u043A\u043E\u044E \u0441\u043E\u0441\u043D\u043E\u044E,
+        \u0441\u0445\u0438\u043B\u0438 \u2014 \u043C\u043E\u0445\u043E\u0432\u043E-\u0442\u0440\u0430\u0432'\u044F\u043D\u0438\u0441\u0442\u0438\u043C\u0438
+        \u0442\u0430 \u0441\u043C\u0435\u0440\u0435\u043A\u043E\u0432\u043E-\u0431\u0443\u043A\u043E\u0432\u0438\u043C\u0438
+        \u0443\u0433\u0440\u0443\u043F\u043E\u0432\u0430\u043D\u043D\u044F\u043C\u0438
+        \u0437 \u0434\u043E\u0431\u0440\u0435 \u0432\u0438\u0440\u0430\u0436\u0435\u043D\u043E\u044E
+        \u0432\u0438\u0441\u043E\u0442\u043D\u043E\u044E \u043F\u043E\u044F\u0441\u043D\u0456\u0441\u0442\u044E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114120783320632886, guid: 2152a83dbf910b7488b6149889b9addf,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 114430060500085956, guid: 2152a83dbf910b7488b6149889b9addf,
         type: 3}
@@ -944,6 +1049,31 @@ Transform:
   m_Father: {fileID: 80344872}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1104900859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1252916067947334, guid: 05e2cf710660130459f2a3b88349819c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1204738248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1104900860 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224534903396016970, guid: 05e2cf710660130459f2a3b88349819c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1204738248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1104900864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104900859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
 --- !u!1001 &1204738248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1051,15 +1181,24 @@ PrefabInstance:
     - target: {fileID: 114471821237805178, guid: 05e2cf710660130459f2a3b88349819c,
         type: 3}
       propertyPath: m_Text
-      value: "\u041A\u043E\u043B\u0447\u0430\u0432\u0430"
+      value: "\u0433.\u0421\u0442\u0440\u0438\u043C\u0431\u0430"
       objectReference: {fileID: 0}
     - target: {fileID: 114616550704834484, guid: 05e2cf710660130459f2a3b88349819c,
         type: 3}
       propertyPath: m_Text
-      value: "\u0426\u0435 \u043F\u0440\u043E\u0441\u0442\u043E \u0434\u0435\u043C\u043E
-        \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u043E\u0433\u043E \u043E\u043F\u0438\u0441\u0443.\n\u0412\u043E\u043D\u043E
-        \u043C\u043E\u0436\u0435 \u0431\u0443\u0442\u0435 \u0440\u0456\u0437\u043D\u0435.\n\u0437\u0430\u043B\u0435\u0436\u043D\u043E
-        \u0432\u0456\u0434 \u043F\u043E\u0442\u0440\u0435\u0431\u0438."
+      value: "\u0420\u043E\u0437\u0442\u0430\u0448\u043E\u0432\u0430\u043D\u0430
+        \u043D\u0430 \u043C\u0435\u0436\u0456 \u041C\u0456\u0436\u0433\u0456\u0440\u0441\u044C\u043A\u043E\u0433\u043E
+        \u0456 \u0422\u044F\u0447\u0456\u0432\u0441\u044C\u043A\u043E\u0433\u043E
+        \u0440\u0430\u0439\u043E\u043D\u0456\u0432 \u0417\u0430\u043A\u0430\u0440\u043F\u0430\u0442\u0441\u044C\u043A\u043E\u0457
+        \u043E\u0431\u043B\u0430\u0441\u0442\u0456, \u043D\u0430 \u043E\u0434\u043D\u043E\u0439\u043C\u0435\u043D\u043D\u043E\u043C\u0443
+        \u0445\u0440\u0435\u0431\u0442\u0456 \u2014 \u0421\u0442\u0440\u0438\u043C\u0431\u0430.
+        \u0437\u0430\u0440\u043E\u0441\u043B\u0430 \u0433\u0456\u0440\u0441\u044C\u043A\u043E\u044E
+        \u0441\u043E\u0441\u043D\u043E\u044E, \u0441\u0445\u0438\u043B\u0438 \u2014
+        \u043C\u043E\u0445\u043E\u0432\u043E-\u0442\u0440\u0430\u0432'\u044F\u043D\u0438\u0441\u0442\u0438\u043C\u0438
+        \u0442\u0430 \u0441\u043C\u0435\u0440\u0435\u043A\u043E\u0432\u043E-\u0431\u0443\u043A\u043E\u0432\u0438\u043C\u0438
+        \u0443\u0433\u0440\u0443\u043F\u043E\u0432\u0430\u043D\u043D\u044F\u043C\u0438
+        \u0437 \u0434\u043E\u0431\u0440\u0435 \u0432\u0438\u0440\u0430\u0436\u0435\u043D\u043E\u044E
+        \u0432\u0438\u0441\u043E\u0442\u043D\u043E\u044E \u043F\u043E\u044F\u0441\u043D\u0456\u0441\u0442\u044E."
       objectReference: {fileID: 0}
     - target: {fileID: 114917134642768254, guid: 05e2cf710660130459f2a3b88349819c,
         type: 3}
@@ -1265,7 +1404,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 100
-  field of view: 75
+  field of view: 55
   orthographic: 0
   orthographic size: 5
   m_Depth: 10

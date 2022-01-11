@@ -7,22 +7,31 @@
 - Final build
 
 # Plan
+
+## Extra
+
+
+- [ ] Name apeear on couple seconds when you open location
+- [ ] Integrate fadeout with Name switch
+
 > stage 1 Logic
 
-- [ ] Names apear disapear Logic + image support
-- [ ] Name apeear on couple seconds when you open location
+
+
+- [x] Names apear disapear Logic + image support
+
 - [ ] Parsed data from web page logic(UML structure)
 - [ ] Language switch logic
 
 03:00  Integration
 
-- [ ] Integrate fadeout with Name switch
 - [ ] Integration tests in Unity for (Back and forward)
 - [ ] Integration tests for hotspots heights e.t.c 
 - [ ] Integration tests for Languages
 - [ ] Integration tests for Images
 
 - [ ] Add one Video 
+
 - [ ] Make NONVR test build for Functionality check 
 - [ ] Make VR test build for Quality Check
 
@@ -43,7 +52,7 @@ At 10:30 AM
 
 - [ ] HotspotFix as in web and (Photo, Drone, Video)
 - [ ] At location «Гора Стримба»  add surrounding tops
-t
+
 - *EXTRA*
 	- [ ]  Made language work
 	- [ ]  Add fun facts and photos
