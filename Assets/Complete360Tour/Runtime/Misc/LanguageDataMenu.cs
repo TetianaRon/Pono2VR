@@ -17,6 +17,8 @@ namespace DigitalSalmon.C360
 
         [SerializeField]
         private PhraseLanguageData _mainMessagePhrase;
+        [SerializeField]
+        private PhraseLanguageData _choseVrTour;
 
         [SerializeField]
         private PhraseLanguageData[] _cardsTitlePhrase= new PhraseLanguageData[3];

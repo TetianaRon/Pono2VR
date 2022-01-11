@@ -129,6 +129,8 @@ namespace VRStandardAssets.Utils
         {
             if (m_CurrentInteractible != null)
                 m_CurrentInteractible.Up();
+
+
         }
 
 

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -47,11 +48,29 @@ namespace VRStandardAssets.Utils
 
         public float DoubleClickTime{ get { return m_DoubleClickTime; } }
 
+        private List<Collider> _colliders  = new List<Collider>();
 
         public void OnEnable()
         {
-            _eyeRaycaster.OnRaycasthit += (hit) => {OnDown?.Invoke(); };
-            _eyeRaycaster.OnRaycastStopHit += (hit) => {OnUp?.Invoke(); };
+            _eyeRaycaster.OnRaycasthit += (hit) =>
+                {
+                    if (!_colliders.Contains(hit.collider))
+                    {
+                        OnDown?.Invoke();
+                        _colliders.Add(hit.collider);
+                    }
+ 
+                };
+            _eyeRaycaster.OnRaycastStopHit += (hit) =>
+            {
+                    if (_colliders.Contains(hit.collider))
+                    {
+                        OnUp?.Invoke();
+                    OnCancel?.Invoke();
+                        _colliders.Remove(hit.collider);
+                    }
+
+            };
 
         }
 
@@ -77,8 +96,8 @@ namespace VRStandardAssets.Utils
              {
                 // When Fire1 is released record the position of the mouse.
                 m_MouseUpPosition = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
-                if (OnUp != null)
-                    OnUp();
+                //if (OnUp != null)
+                //    OnUp();
 
             }
         }

@@ -128,7 +128,7 @@ namespace VRStandardAssets.Utils
             // If the radial is active start filling it.
             if (m_IsSelectionRadialActive)
             {
-                m_SelectionFillRoutine = StartCoroutine(FillSelectionRadial());
+                    m_SelectionFillRoutine = StartCoroutine(FillSelectionRadial());
             }
         }
 
@@ -136,12 +136,14 @@ namespace VRStandardAssets.Utils
         private void HandleUp()
         {
             // If the radial is active stop filling it and reset it's amount.
+            StopAllCoroutines();
             if (m_IsSelectionRadialActive)
             {
                 if(m_SelectionFillRoutine != null)
                     StopCoroutine(m_SelectionFillRoutine);
 
                 m_Selection.fillAmount = 0f;
+                Hide();
             }
         }
     }
