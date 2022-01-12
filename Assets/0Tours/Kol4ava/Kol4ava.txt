@@ -72,8 +72,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -540.0,
-                "y": -690.0
+                "x": -600.0,
+                "y": -840.0
             },
             "Name": "amfiteatr",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -204,7 +204,7 @@
                 }
             ],
             "NodePosition": {
-                "x": -150.0,
+                "x": -90.0,
                 "y": -150.0
             },
             "Name": "center",
@@ -384,10 +384,19 @@
                     },
                     "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1432948736,
+                    "MappedPosition": {
+                        "x": 0.5274101,
+                        "y": 0.5570469
+                    },
+                    "IconIndex": 10,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
-                "x": 510.0,
+                "x": 330.0,
                 "y": -360.0
             },
             "Name": "mistok-01",
@@ -421,7 +430,7 @@
             ],
             "NodePosition": {
                 "x": 120.0,
-                "y": -150.0
+                "y": -180.0
             },
             "Name": "olbraxt",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -502,7 +511,7 @@
             ],
             "NodePosition": {
                 "x": 30.0,
-                "y": -270.0
+                "y": -300.0
             },
             "Name": "ptaxy-01",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -774,8 +783,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -630.0,
-                "y": 300.0
+                "x": -690.0,
+                "y": 180.0
             },
             "Name": "skansen3",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -868,7 +877,7 @@
             ],
             "NodePosition": {
                 "x": -360.0,
-                "y": -150.0
+                "y": -210.0
             },
             "Name": "skansen7",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -1023,8 +1032,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -90.0,
-                "y": -810.0
+                "x": -120.0,
+                "y": -840.0
             },
             "Name": "strymba2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -1220,6 +1229,30 @@
             },
             "Name": "zarobitchany2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "MistokLebedi",
+            "MediaName": "MistokLebedi",
+            "EntryYaw": 0.0,
+            "UID": -1432948736,
+            "Elements": [
+                {
+                    "TargetNodeUID": 1787926784,
+                    "MappedPosition": {
+                        "x": 0.5444234,
+                        "y": 0.5139021
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": 540.0,
+                "y": -540.0
+            },
+            "Name": "MistokLebedi",
+            "$type": "DigitalSalmon.C360.VideoMediaNodeData"
         }
     ]
 }
