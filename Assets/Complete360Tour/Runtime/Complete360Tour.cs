@@ -37,6 +37,9 @@ namespace DigitalSalmon.C360 {
 		public TextAsset tourData;
 
 		[SerializeField]
+		public TextAsset tourDataNames;
+
+		[SerializeField]
 		[Tooltip("Should the tour begin as soon as the scene loads.")]
 		protected bool autoBeginTour = true;
 

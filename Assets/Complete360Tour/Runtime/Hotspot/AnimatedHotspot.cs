@@ -68,7 +68,7 @@ namespace DigitalSalmon.C360 {
                 if (alpha > 0.1f)
                 {
 					if(!string.IsNullOrEmpty(Element?.TargetNodeData?.NiceName))
-                        LocationText.text = Element.TargetNodeData.NiceName;
+                        LocationText.text = AutoTour.GetTitleFromName(Element.TargetNodeData.NiceName);
                     ExtraText.SetActive(true);
                 }
                 else

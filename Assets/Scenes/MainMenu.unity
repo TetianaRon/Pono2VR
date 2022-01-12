@@ -1464,6 +1464,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146890026}
   m_CullTransparentMesh: 1
+--- !u!21 &217358715
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Other (Instance) (Instance)
+  m_Shader: {fileID: 4800000, guid: 1d94c8098670f8649ae31842b40e497c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 87fecf35568546a4684636c0b2f21399, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FlipY: 0
+    - _StereoScopic: 1
+    - _Stereoscopic: 0
+    - _Yaw: 4.48
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &245248763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6198,37 +6229,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725052829}
   m_CullTransparentMesh: 1
---- !u!21 &1779235600
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Other (Instance) (Instance)
-  m_Shader: {fileID: 4800000, guid: 1d94c8098670f8649ae31842b40e497c, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 87fecf35568546a4684636c0b2f21399, type: 3}
-        m_Scale: {x: 10, y: 10}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _FlipY: 0
-    - _StereoScopic: 1
-    - _Stereoscopic: 0
-    - _Yaw: 4.48
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1 &1783868684
 GameObject:
   m_ObjectHideFlags: 0
@@ -7152,7 +7152,7 @@ PrefabInstance:
     - target: {fileID: 3243997481911411868, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
         type: 3}
       propertyPath: m_SelectionDuration
-      value: 2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3243997481911431818, guid: d12e44d2cdc56004e8bab4b9f9730e6f,
         type: 3}

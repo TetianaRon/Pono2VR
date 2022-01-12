@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using Assets.Complete360Tour.Runtime.AutoTour;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,6 +23,10 @@ namespace DigitalSalmon.C360 {
 		[SerializeField]
 		protected string[] nodeNames;
 
+		[SerializeField]
+        public string[] nodeTextUkr;
+
+        private Dictionary<string, string> _nameDic;
 
         //-----------------------------------------------------------------------------------------
 		// public Fields:
@@ -38,9 +44,21 @@ namespace DigitalSalmon.C360 {
         //-----------------------------------------------------------------------------------------
 		// Unity Lifecycle:
 		//-----------------------------------------------------------------------------------------
+        private static AutoTour _instance;
 
         protected void Awake()
         {
+            _instance = this;
+            
+            if (nodeNames.Length > nodeTextUkr.Length)
+            {
+                throw new Exception("We have more names than we have translations");
+            }
+
+            _nameDic = new Dictionary<string, string>(nodeNames.Length);
+            for (int i = 0; i < nodeNames.Length; i++)
+                _nameDic.Add(nodeNames[i],nodeTextUkr[i]);
+
             _autoTourOptions = _sceneMenu.Options;
             _lastSwitch = _autoTourOptions.startTimeout;
             complete360Tour = GetComponent<Complete360Tour>();
@@ -75,10 +93,24 @@ namespace DigitalSalmon.C360 {
             _tourControl.GoPrev();
         }
 
+        public static string GetTitleFromName(string niceName)
+        {
+            if (_instance == null)
+                return niceName;
+            return _instance.GetTextFromInstance(niceName);
+        }
+
+        public string GetTextFromInstance(string niceName)
+        {
+            if (_nameDic.ContainsKey(niceName))
+                return _nameDic[niceName];
+
+            return niceName;
+        }
 
         private void SwitchText(NodeData node)
         {
-            _autoTourOptions.CurrentNode.text = node.NiceName;
+            _autoTourOptions.CurrentNode.text = GetTextFromInstance(node.NiceName);
             _lastSwitch = Time.time;
 
         }

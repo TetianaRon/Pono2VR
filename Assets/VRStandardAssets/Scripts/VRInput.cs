@@ -57,7 +57,7 @@ namespace VRStandardAssets.Utils
                     if (!_colliders.Contains(hit.collider))
                     {
                         OnDown?.Invoke();
-                        _colliders.Add(hit.collider);
+                        //_colliders.Add(hit.collider);
                     }
  
                 };
@@ -66,7 +66,6 @@ namespace VRStandardAssets.Utils
                     if (_colliders.Contains(hit.collider))
                     {
                         OnUp?.Invoke();
-                    OnCancel?.Invoke();
                         _colliders.Remove(hit.collider);
                     }
 

@@ -3296,5 +3296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete360Tour-Kol4ava
       objectReference: {fileID: 0}
+    - target: {fileID: 9040696197311336388, guid: 7a10df3cd73cc8d4890eec6c742475fc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a10df3cd73cc8d4890eec6c742475fc, type: 3}
