@@ -2,13 +2,15 @@
 
 - Most important things
 
-- A Srimba heights 
+- A Srimba 1 heights 
+
 - A Fix points
 - A Specific Icon on specific Photo
 
 - A Text from WebPage
 
-- A language switch (Main Menu)
+- [ ] A language switch (Main Menu)
+
 - B add one video Kolchava
 
 

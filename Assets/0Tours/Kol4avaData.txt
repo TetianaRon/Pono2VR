@@ -1,0 +1,111 @@
+src="imagespreview_nodeimage_node1.jpg" 
+Над центром Колочави
+ src="imagespreview_nodeimage_node1.jpg" 
+Над центром Колочави
+ src="imagespreview_nodeimage_node2.jpg" 
+Амфітеатр
+src="imagespreview_nodeimage_node28.jpg" 
+Гора Стримба
+ src="imagespreview_nodeimage_node4.jpg" 
+Церква Зішестя Святого Духа
+ src="imagespreview_nodeimage_node7.jpg" 
+Птахопарк у  Швегана
+ src="imagespreview_nodeimage_node8.jpg" 
+Місток через річку Колочавка
+ src="imagespreview_nodeimage_node12.jpg" 
+Пам'ятник заробітчанам
+ src="imagespreview_nodeimage_node13.jpg" 
+Мінеральне джерело Колочава
+ src="imagespreview_nodeimage_node15.jpg" 
+Музей Радянська школа
+ src="imagespreview_nodeimage_node18.jpg" 
+Музей Чеська школа
+ src="imagespreview_nodeimage_node17.jpg" 
+узей Яна Ольбрахта
+ src="imagespreview_nodeimage_node11.jpg" 
+Музей архітектури і побуту «Старе село»
+src="imagespreview_nodeimage_node26.jpg" 
+Музей «Старе село» згори
+ src="imagespreview_nodeimage_node22.jpg" 
+Типова хата селянина
+ src="imagespreview_nodeimage_node14.jpg" 
+Гуцульська хата 1
+ src="imagespreview_nodeimage_node25.jpg" 
+Хата бондаря
+ src="imagespreview_nodeimage_node16.jpg" 
+Гуцульська хата 2
+ src="imagespreview_nodeimage_node23.jpg" 
+Єврейська Бужня
+ src="imagespreview_nodeimage_node9.jpg" 
+Корчма
+ src="imagespreview_nodeimage_node6.jpg" 
+Гуцульська школа
+ src="imagespreview_nodeimage_node21.jpg" 
+Хлів полонинський
+ src="imagespreview_nodeimage_node27.jpg" 
+Хата сабова
+ src="imagespreview_nodeimage_node20.jpg" 
+Бункер УПА
+ src="imagespreview_nodeimage_node10.jpg" 
+Музей "Колочавська вузькоколійка"
+ src="imagespreview_nodeimage_node24.jpg" 
+Хата бірова
+ src="imagespreview_nodeimage_node19.jpg" 
+Атракційна пасіка
+ src="imagespreview_nodeimage_node2.jpg" 
+Амфітеатр
+ src="imagespreview_nodeimage_node28.jpg" 
+Гора Стримба
+ src="imagespreview_nodeimage_node4.jpg" 
+Церква Зішестя Святого Духа
+ src="imagespreview_nodeimage_node7.jpg" 
+Птахопарк у  Швегана
+ src="imagespreview_nodeimage_node8.jpg" 
+Місток через річку Колочавка
+ src="imagespreview_nodeimage_node12.jpg" 
+Пам'ятник заробітчанам
+ src="imagespreview_nodeimage_node13.jpg" 
+Мінеральне джерело Колочава
+ src="imagespreview_nodeimage_node15.jpg" 
+Музей Радянська школа
+ src="imagespreview_nodeimage_node18.jpg" 
+Музей Чеська школа
+ src="imagespreview_nodeimage_node17.jpg" 
+Музей Яна Ольбрахта
+ src="imagespreview_nodeimage_node11.jpg" 
+Музей архітектури і побуту «Старе село»
+ src="imagespreview_nodeimage_node26.jpg" 
+Музей «Старе село» згори
+ src="imagespreview_nodeimage_node22.jpg" 
+Типова хата селянина
+ src="imagespreview_nodeimage_node14.jpg" 
+Гуцульська хата 1
+ src="imagespreview_nodeimage_node25.jpg" 
+Хата бондаря
+ src="imagespreview_nodeimage_node16.jpg" 
+Гуцульська хата 2
+ src="imagespreview_nodeimage_node23.jpg" 
+Єврейська Бужня
+ src="imagespreview_nodeimage_node9.jpg" 
+Корчма
+ src="imagespreview_nodeimage_node6.jpg" 
+Гуцульська школа
+ src="imagespreview_nodeimage_node21.jpg" 
+Хлів полонинський
+ src="imagespreview_nodeimage_node27.jpg" 
+Хата сабова
+ src="imagespreview_nodeimage_node20.jpg" 
+Бункер УПА
+ src="imagespreview_nodeimage_node10.jpg" 
+узей "Колочавська вузькоколійка"
+ src="imagespreview_nodeimage_node24.jpg" 
+Хата бірова
+ src="imagespreview_nodeimage_node19.jpg" 
+Атракційна пасіка
+				
+%s\(hiden;">\)\@=.\{-}\(\<div\)\@=/gn
+:<img class="ggskin ggskin_svg"
+:%s\img class="ggskin ggskin_nodeimage"\\
+:%s/style="position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;" >
+
+:%s/></>\r</gc
