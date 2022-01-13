@@ -384,15 +384,6 @@
                     },
                     "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
-                },
-                {
-                    "TargetNodeUID": -1432948736,
-                    "MappedPosition": {
-                        "x": 0.5274101,
-                        "y": 0.5570469
-                    },
-                    "IconIndex": 10,
-                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
@@ -1229,30 +1220,6 @@
             },
             "Name": "zarobitchany2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
-        },
-        {
-            "IsStereo": false,
-            "ResourcePath": "MistokLebedi",
-            "MediaName": "MistokLebedi",
-            "EntryYaw": 0.0,
-            "UID": -1432948736,
-            "Elements": [
-                {
-                    "TargetNodeUID": 1787926784,
-                    "MappedPosition": {
-                        "x": 0.5444234,
-                        "y": 0.5139021
-                    },
-                    "IconIndex": 2,
-                    "$type": "DigitalSalmon.C360.HotspotElement"
-                }
-            ],
-            "NodePosition": {
-                "x": 540.0,
-                "y": -540.0
-            },
-            "Name": "MistokLebedi",
-            "$type": "DigitalSalmon.C360.VideoMediaNodeData"
         }
     ]
 }

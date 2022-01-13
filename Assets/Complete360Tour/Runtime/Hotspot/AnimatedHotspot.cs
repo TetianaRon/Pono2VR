@@ -75,7 +75,7 @@ namespace DigitalSalmon.C360 {
                     ExtraText.SetActive(false);
             }
 
-            if (renderer != null) renderer.material.SetFloat("_FillValue", alpha);
+            if (renderer != null) renderer.material?.SetFloat("_FillValue", alpha);
 		}
 
 		private IEnumerator HoverCoroutine() {
