@@ -980,5 +980,11 @@ PrefabInstance:
       propertyPath: _sceneMenu
       value: 
       objectReference: {fileID: 44903333}
+    - target: {fileID: 3844416354805183885, guid: 982f6fb759baaa34c81940daa74f4e84,
+        type: 3}
+      propertyPath: nodeTextUkr.Array.data[16]
+      value: "\u0412\u0438\u043C\u043E\u0447\u0443\u0432\u0430\u043D\u043D\u044F
+        \u043B\u0456\u0436\u043D\u0438\u043A\u0456\u0432 \u0443 \"\u0412\u0430\u043B\u0438\u043B\u043E\" "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f6fb759baaa34c81940daa74f4e84, type: 3}
