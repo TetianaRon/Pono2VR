@@ -115,7 +115,7 @@
             ],
             "NodePosition": {
                 "x": -360.0,
-                "y": 0.0
+                "y": -180.0
             },
             "Name": "bazar2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -429,8 +429,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -360.0,
-                "y": 120.0
+                "x": -480.0,
+                "y": -180.0
             },
             "Name": "mykolai-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -453,8 +453,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -240.0,
-                "y": 120.0
+                "x": -750.0,
+                "y": -120.0
             },
             "Name": "mykolai-in",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -657,8 +657,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -480.0,
-                "y": -180.0
+                "x": -690.0,
+                "y": 90.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"

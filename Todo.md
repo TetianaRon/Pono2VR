@@ -9,9 +9,10 @@ What is frog?
 - [x] Test Build myself
 - [x] Fix the issues preventing app from working.
 
-- [ ] Fix dot's in Kosiv and Tustan represpectivly
+- [x] Fix dot's in Kosiv and Tustan represpectivly
 
-- [ ] Stabilty Test using Oculus 
+- [x] Stabilty Test using Oculus 
+
 - [ ] Add all the videos
 - [ ] Upload to the claud.
 
