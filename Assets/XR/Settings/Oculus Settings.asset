@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c353a8f1e58cf884584123914fe63cd5, type: 3}
+  m_Script: {fileID: 0}
   m_Name: Oculus Settings
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Unity.XR.Oculus:Unity.XR.Oculus:OculusSettings
   m_StereoRenderingModeDesktop: 0
   m_StereoRenderingModeAndroid: 0
   SharedDepthBuffer: 1
@@ -20,7 +20,7 @@ MonoBehaviour:
   LowOverheadMode: 0
   ProtectedContext: 0
   FocusAware: 1
-  OptimizeBufferDiscards: 0
+  OptimizeBufferDiscards: 1
   PhaseSync: 0
-  TargetQuest: 0
+  TargetQuest: 1
   TargetQuest2: 1

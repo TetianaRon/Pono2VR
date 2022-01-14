@@ -69,7 +69,7 @@ namespace DigitalSalmon.C360 {
 
         private void OnEnable()
         {
-            complete360Tour.OnMediaSwitched += SwitchText;
+            Complete360Tour.MediaSwitch += SwitchText;
             _tourControl.OnSwitchNode += complete360Tour.GoToMedia;
 
             _autoTourOptions.PrevButton.OnTrigger += Prev;
@@ -77,10 +77,11 @@ namespace DigitalSalmon.C360 {
 
         }
 
+
         private void OnDisable()
         {
             _tourControl.OnSwitchNode -= complete360Tour.GoToMedia;
-            complete360Tour.OnMediaSwitched -= SwitchText;
+            Complete360Tour.MediaSwitch += SwitchText;
             _autoTourOptions.PrevButton.OnTrigger -= Prev;
             _autoTourOptions.NextButton.OnTrigger -= Next;
         }
@@ -110,7 +111,7 @@ namespace DigitalSalmon.C360 {
             return niceName;
         }
 
-        private void SwitchText(NodeData node)
+        private void SwitchText(MediaSwitchStates state, NodeData node)
         {
             _autoTourOptions.CurrentNode.text = GetTextFromInstance(node.NiceName);
             _lastSwitch = Time.time;

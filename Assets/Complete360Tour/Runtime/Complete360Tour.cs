@@ -176,7 +176,6 @@ namespace DigitalSalmon.C360 {
 		// Public Methods:
 		//-----------------------------------------------------------------------------------------
 
-        public event Action<NodeData> OnMediaSwitched;
 		/// <summary>
 		/// Instructs the MediaSwitch to move to a given NodeData.
 		/// </summary>
@@ -187,7 +186,6 @@ namespace DigitalSalmon.C360 {
 				Debug.LogWarning("GoToMedia called but requested nodeData is null.");
 			}
 
-            OnMediaSwitched?.Invoke(nodeData);
 
 			switch (transitionStyle) {
 				case Transitions.None:
