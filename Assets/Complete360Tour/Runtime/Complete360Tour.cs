@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace DigitalSalmon.C360 {
 	public enum MediaSwitchStates {
@@ -105,7 +106,29 @@ namespace DigitalSalmon.C360 {
 
 		protected void OnEnable() { hotspotReactor.OnTriggered += HotspotReactor_HotspotTriggered; }
 
-		protected void Start() {
+		#if UNITY_EDITOR
+
+
+        [SerializeField]
+        private bool _autoUpdate;
+        private string _prevText;
+        private int _lastNodeUid;
+
+        private void OnGUI()
+        {
+
+            if (_autoUpdate&&_prevText != tourData.text)
+            {
+                _prevText = tourData.text;
+                var location = _lastNodeUid;
+                tour = TourConverter.ParseTour(tourData.text);
+                NodeData nodeData = tour.DataFromUid(location);
+                GoToMedia(nodeData);
+            }
+        }
+		#endif
+
+        protected void Start() {
 			if (tourData == null) {
 				Debug.LogWarning("No TourData file. Ensure a TourData TextAsset has been assigned in the Complete360Tour object.");
 				return;
@@ -157,7 +180,9 @@ namespace DigitalSalmon.C360 {
 		/// <summary>
 		/// Instructs the MediaSwitch to move to a given NodeData.
 		/// </summary>
-		public void GoToMedia(NodeData nodeData) {
+		public void GoToMedia(NodeData nodeData)
+        {
+            _lastNodeUid =  nodeData.Uid;
 			if (nodeData == null) {
 				Debug.LogWarning("GoToMedia called but requested nodeData is null.");
 			}

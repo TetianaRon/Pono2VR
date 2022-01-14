@@ -39,7 +39,9 @@ namespace DigitalSalmon.C360 {
         private TourControl _tourControl;
 
         [SerializeField]
-        private  SceneMenu _sceneMenu; 
+        private  SceneMenu _sceneMenu;
+
+        [SerializeField]
         private  AutoTourOptions _autoTourOptions; 
         //-----------------------------------------------------------------------------------------
 		// Unity Lifecycle:
