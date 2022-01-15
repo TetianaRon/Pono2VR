@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using DigitalSalmon.C360;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -30,8 +31,6 @@ namespace VRStandardAssets.Utils
         public event Action OnCancel;                               // Called when Cancel is pressed.
 
         [SerializeField]
-        private PlayerInput _input;
-        [SerializeField]
         private VREyeRaycaster _eyeRaycaster;
 
 
@@ -48,26 +47,25 @@ namespace VRStandardAssets.Utils
 
         public float DoubleClickTime{ get { return m_DoubleClickTime; } }
 
-        private List<Collider> _colliders  = new List<Collider>();
+        private Collider _lastCollider  ;
 
         public void OnEnable()
         {
             _eyeRaycaster.OnRaycasthit += (hit) =>
                 {
-                    if (!_colliders.Contains(hit.collider))
+                    if (hit.collider!=_lastCollider)
                     {
                         OnDown?.Invoke();
-                        //_colliders.Add(hit.collider);
+                        Debug.Log($"We hit {hit.collider} collider ");
+                        _lastCollider = hit.collider;
                     }
  
                 };
             _eyeRaycaster.OnRaycastStopHit += (hit) =>
             {
-                    if (_colliders.Contains(hit.collider))
-                    {
+                        Debug.Log($"We remove {hit.collider} collider ");
+                        _lastCollider = null;
                         OnUp?.Invoke();
-                        _colliders.Remove(hit.collider);
-                    }
 
             };
 

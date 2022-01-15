@@ -105,6 +105,8 @@ namespace VRStandardAssets.Utils
 
         public IEnumerator BeginFadeOut (bool fadeAudio)
         {
+            Debug.Log($"Start Fade Out");
+
             // Fade out the audio over the default duration.
             if(m_FadedSnapshot && fadeAudio)
                 m_FadedSnapshot.TransitionTo (m_FadeDuration);

@@ -115,7 +115,7 @@
                         "x": 0.4956408,
                         "y": 0.3158128
                     },
-                    "IconIndex": 7,
+                    "IconIndex": 10,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
@@ -129,7 +129,7 @@
                 }
             ],
             "NodePosition": {
-                "x": -810.0,
+                "x": -690.0,
                 "y": -240.0
             },
             "Name": "centr-gucul",
@@ -195,8 +195,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -300.0,
-                "y": 450.0
+                "x": -360.0,
+                "y": 420.0
             },
             "Name": "institute",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -228,8 +228,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -300.0,
-                "y": 240.0
+                "x": -330.0,
+                "y": 150.0
             },
             "Name": "institute2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -319,7 +319,7 @@
             ],
             "NodePosition": {
                 "x": -510.0,
-                "y": 240.0
+                "y": 150.0
             },
             "Name": "museum1",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -342,8 +342,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -510.0,
-                "y": 390.0
+                "x": -420.0,
+                "y": 270.0
             },
             "Name": "museum3",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -828,8 +828,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -690.0,
-                "y": 0.0
+                "x": -540.0,
+                "y": -120.0
             },
             "Name": "gonchar-01",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
