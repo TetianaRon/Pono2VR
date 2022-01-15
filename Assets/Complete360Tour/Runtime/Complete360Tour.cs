@@ -121,7 +121,7 @@ namespace DigitalSalmon.C360 {
             {
                 _prevText = tourData.text;
                 var location = _lastNodeUid;
-                tour = TourConverter.ParseTour(tourData.text);
+                tour = Tour.GetTourFromJson(tourData.text);
                 NodeData nodeData = tour.DataFromUid(location);
                 GoToMedia(nodeData);
             }
