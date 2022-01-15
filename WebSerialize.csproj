@@ -336,6 +336,9 @@
     <Reference Include="NReco.VideoConverter">
       <HintPath>Assets\Complete360Tour\Plugins\Editor\NReco.VideoConverter.dll</HintPath>
     </Reference>
+    <Reference Include="Complete360Tour2.Editor">
+      <HintPath>Assets\Complete360Tour\Plugins\Editor\Complete360Tour2.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>B:\MyPrograms\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>

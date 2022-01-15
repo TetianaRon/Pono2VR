@@ -72,8 +72,8 @@
                 }
             ],
             "NodePosition": {
-                "x": 30.0,
-                "y": -270.0
+                "x": 60.0,
+                "y": -330.0
             },
             "Name": "bazar-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -129,8 +129,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -690.0,
-                "y": 0.0
+                "x": -810.0,
+                "y": -240.0
             },
             "Name": "centr-gucul",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -249,11 +249,20 @@
                     },
                     "IconIndex": 7,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1260877312,
+                    "MappedPosition": {
+                        "x": 0.0371134,
+                        "y": 0.5246347
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
                 "x": -690.0,
-                "y": 480.0
+                "y": 360.0
             },
             "Name": "keramika",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -366,8 +375,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -630.0,
-                "y": -570.0
+                "x": -540.0,
+                "y": -300.0
             },
             "Name": "mykolai-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -390,7 +399,7 @@
                 }
             ],
             "NodePosition": {
-                "x": -420.0,
+                "x": -540.0,
                 "y": -570.0
             },
             "Name": "mykolai-in",
@@ -571,7 +580,7 @@
             ],
             "NodePosition": {
                 "x": -870.0,
-                "y": 420.0
+                "y": 360.0
             },
             "Name": "petrychuk",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -603,8 +612,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -60.0,
-                "y": 180.0
+                "x": 0.0,
+                "y": 0.0
             },
             "Name": "pistyn",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -726,8 +735,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -60.0,
-                "y": -540.0
+                "x": -150.0,
+                "y": -750.0
             },
             "Name": "valylo-in",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -783,11 +792,20 @@
                     },
                     "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1260877312,
+                    "MappedPosition": {
+                        "x": 0.7422681,
+                        "y": 0.4820459
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
-                "x": -570.0,
-                "y": -720.0
+                "x": -600.0,
+                "y": -750.0
             },
             "Name": "valylo-out",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -798,10 +816,20 @@
             "MediaName": "gonchar-01",
             "EntryYaw": 0.0,
             "UID": -1260877312,
-            "Elements": [],
+            "Elements": [
+                {
+                    "TargetNodeUID": -2058290560,
+                    "MappedPosition": {
+                        "x": 0.09402062,
+                        "y": 0.5146138
+                    },
+                    "IconIndex": 0,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
             "NodePosition": {
-                "x": -1170.0,
-                "y": -30.0
+                "x": -690.0,
+                "y": 0.0
             },
             "Name": "gonchar-01",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"

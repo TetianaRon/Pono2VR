@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 797d441c13ee56e43a8d022424965bd5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7672598aa8b31e044b263a4bb8d12b91, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -28,6 +28,6 @@ Material:
     - _FlipY: 0
     - _StereoScopic: 1
     - _Stereoscopic: 0
-    - _Yaw: -4.25
+    - _Yaw: 0
     m_Colors: []
   m_BuildTextureStacks: []
