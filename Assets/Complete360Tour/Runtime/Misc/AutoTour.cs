@@ -69,8 +69,8 @@ namespace DigitalSalmon.C360 {
 
         private void OnEnable()
         {
-            Complete360Tour.MediaSwitch += SwitchText;
             _tourControl.OnSwitchNode += complete360Tour.GoToMedia;
+            Complete360Tour.MediaSwitch += SwitchText;
 
             _autoTourOptions.PrevButton.OnTrigger += Prev;
             _autoTourOptions.NextButton.OnTrigger += Next;

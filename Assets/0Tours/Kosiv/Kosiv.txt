@@ -129,8 +129,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -870.0,
-                "y": 30.0
+                "x": -690.0,
+                "y": 0.0
             },
             "Name": "centr-gucul",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -276,8 +276,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -900.0,
-                "y": 210.0
+                "x": -780.0,
+                "y": -120.0
             },
             "Name": "koka",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -400,23 +400,14 @@
             "IsStereo": false,
             "ResourcePath": "ostry",
             "MediaName": "ostry",
-            "EntryYaw": 0.04868154,
+            "EntryYaw": 0.5513878,
             "UID": 1946263168,
             "Elements": [
                 {
-                    "TargetNodeUID": 908823040,
-                    "MappedPosition": {
-                        "x": 0.7865918,
-                        "y": 0.4593848
-                    },
-                    "IconIndex": 2,
-                    "$type": "DigitalSalmon.C360.HotspotElement"
-                },
-                {
                     "TargetNodeUID": -1913083776,
                     "MappedPosition": {
-                        "x": 0.09044611,
-                        "y": 0.4330923
+                        "x": 0.08534048,
+                        "y": 0.4025305
                     },
                     "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -424,8 +415,8 @@
                 {
                     "TargetNodeUID": 161796480,
                     "MappedPosition": {
-                        "x": 0.08865754,
-                        "y": 0.5253364
+                        "x": 0.09104989,
+                        "y": 0.5204937
                     },
                     "IconIndex": 3,
                     "$type": "DigitalSalmon.C360.HotspotElement"
@@ -508,13 +499,13 @@
                         "x": 0.9696029,
                         "y": 0.5746989
                     },
-                    "IconIndex": 0,
+                    "IconIndex": 1,
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 }
             ],
             "NodePosition": {
-                "x": -1170.0,
-                "y": 60.0
+                "x": -1050.0,
+                "y": 0.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -799,6 +790,20 @@
                 "y": -720.0
             },
             "Name": "valylo-out",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "gonchar-01",
+            "MediaName": "gonchar-01",
+            "EntryYaw": 0.0,
+            "UID": -1260877312,
+            "Elements": [],
+            "NodePosition": {
+                "x": -1170.0,
+                "y": -30.0
+            },
+            "Name": "gonchar-01",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
         }
     ]
