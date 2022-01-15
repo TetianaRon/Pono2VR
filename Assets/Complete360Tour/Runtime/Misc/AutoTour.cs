@@ -35,6 +35,7 @@ namespace DigitalSalmon.C360 {
 
         private float _lastSwitch;
 
+        [SerializeField]
 		private Complete360Tour complete360Tour;
         private TourControl _tourControl;
 
@@ -63,7 +64,6 @@ namespace DigitalSalmon.C360 {
 
             _autoTourOptions = _sceneMenu.Options;
             _lastSwitch = _autoTourOptions.startTimeout;
-            complete360Tour = GetComponent<Complete360Tour>();
             _tourControl = new TourControl(nodeNames);
         }
 
