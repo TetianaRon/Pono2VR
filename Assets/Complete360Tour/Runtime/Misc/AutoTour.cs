@@ -113,7 +113,10 @@ namespace DigitalSalmon.C360 {
 
         private void SwitchText(MediaSwitchStates state, NodeData node)
         {
-            _autoTourOptions.CurrentNode.text = GetTextFromInstance(node.NiceName);
+                var currentNode = _autoTourOptions.CurrentNode;
+                if(currentNode!=null)
+                    currentNode.text = GetTextFromInstance(node.NiceName);
+
             _lastSwitch = Time.time;
 
         }

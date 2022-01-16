@@ -643,6 +643,11 @@ PrefabInstance:
       propertyPath: _sceneMenu
       value: 
       objectReference: {fileID: 1527276169}
+    - target: {fileID: 3300192936149387240, guid: 889de79ac29ab154e9261c422035ed41,
+        type: 3}
+      propertyPath: complete360Tour
+      value: 
+      objectReference: {fileID: 3195966857580809974}
     - target: {fileID: 3300500925452248206, guid: 889de79ac29ab154e9261c422035ed41,
         type: 3}
       propertyPath: tourData
@@ -660,3 +665,15 @@ PrefabInstance:
       objectReference: {fileID: 80344872}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 889de79ac29ab154e9261c422035ed41, type: 3}
+--- !u!114 &3195966857580809974 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3300500925452248206, guid: 889de79ac29ab154e9261c422035ed41,
+    type: 3}
+  m_PrefabInstance: {fileID: 3195966857580809973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72dd4deb22351b479f11719a94fb6a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

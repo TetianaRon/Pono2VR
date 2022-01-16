@@ -62,6 +62,8 @@ namespace DigitalSalmon.C360 {
 		//-----------------------------------------------------------------------------------------
 
 		private ScreenTint _screenTint;
+        private string _prevText;
+        private int _lastNodeUid;
 
 		//-----------------------------------------------------------------------------------------
 		// Private Fields:
@@ -111,8 +113,6 @@ namespace DigitalSalmon.C360 {
 
         [SerializeField]
         private bool _autoUpdate;
-        private string _prevText;
-        private int _lastNodeUid;
 
         private void OnGUI()
         {
