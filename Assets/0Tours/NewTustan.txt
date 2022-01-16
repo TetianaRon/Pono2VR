@@ -1,0 +1,1225 @@
+{
+    "NodeDataList": [
+        {
+            "IsStereo": false,
+            "ResourcePath": "cerkva-dron",
+            "MediaName": "cerkva-dron",
+            "EntryYaw": 0.0,
+            "UID": -2096193920,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1660573568,
+                    "MappedPosition": {
+                        "x": 0.497319,
+                        "y": 0.5520833
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1461562752,
+                    "MappedPosition": {
+                        "x": 0.5710456,
+                        "y": 0.4705616
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 849927040,
+                    "MappedPosition": {
+                        "x": 0.4423592,
+                        "y": 0.3944746
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -180.0,
+                "y": -510.0
+            },
+            "Name": "cerkva-dron",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "dytynets",
+            "MediaName": "dytynets",
+            "EntryYaw": 0.0,
+            "UID": -21313664,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1867309440,
+                    "MappedPosition": {
+                        "x": 0.1249055,
+                        "y": 0.4949197
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -829869312,
+                    "MappedPosition": {
+                        "x": 0.4530831,
+                        "y": 0.4651268
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2012516224,
+                    "MappedPosition": {
+                        "x": 0.1354193,
+                        "y": 0.4268545
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -450.0,
+                "y": -1170.0
+            },
+            "Name": "dytynets",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "gromkrynytsya",
+            "MediaName": "gromkrynytsya",
+            "EntryYaw": 0.0,
+            "UID": 1596953600,
+            "Elements": [
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.7171582,
+                        "y": 0.3238224
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -1200.0,
+                "y": 90.0
+            },
+            "Name": "gromkrynytsya",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "kladka",
+            "MediaName": "kladka",
+            "EntryYaw": 0.0,
+            "UID": 1161333248,
+            "Elements": [
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.1487936,
+                        "y": 0.3129529
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 849927040,
+                    "MappedPosition": {
+                        "x": 0.8925366,
+                        "y": 0.2671233
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.8556041,
+                        "y": 0.1973378
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -1020.0,
+                "y": -390.0
+            },
+            "Name": "kladka",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "krynytsya",
+            "MediaName": "krynytsya",
+            "EntryYaw": 0.0,
+            "UID": 1016126464,
+            "Elements": [
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.7473693,
+                        "y": 0.5624334
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -270.0,
+                "y": -660.0
+            },
+            "Name": "krynytsya",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "museum0",
+            "MediaName": "museum0",
+            "EntryYaw": 0.0,
+            "UID": -1660573568,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1203960576,
+                    "MappedPosition": {
+                        "x": 0.2654155,
+                        "y": 0.4053442
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2096193920,
+                    "MappedPosition": {
+                        "x": 0.7587131,
+                        "y": 0.334692
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -420.0,
+                "y": -240.0
+            },
+            "Name": "museum0",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "museum1-tustan",
+            "MediaName": "museum1-tustan",
+            "EntryYaw": 0.0,
+            "UID": -1203960576,
+            "Elements": [
+                {
+                    "TargetNodeUID": 1606769536,
+                    "MappedPosition": {
+                        "x": 0.3243968,
+                        "y": 0.5132012
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 870919680,
+                    "MappedPosition": {
+                        "x": 0.9121233,
+                        "y": 0.5167152
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -540.0,
+                "y": -120.0
+            },
+            "Name": "museum1-tustan",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "museum2-tustan",
+            "MediaName": "museum2-tustan",
+            "EntryYaw": 0.0,
+            "UID": 870919680,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1203960576,
+                    "MappedPosition": {
+                        "x": 0.5911528,
+                        "y": 0.4678442
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1606769536,
+                    "MappedPosition": {
+                        "x": 0.1863271,
+                        "y": 0.4759963
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -540.0,
+                "y": 0.0
+            },
+            "Name": "museum2-tustan",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "museum3-tustan",
+            "MediaName": "museum3-tustan",
+            "EntryYaw": 0.0,
+            "UID": 1606769536,
+            "Elements": [
+                {
+                    "TargetNodeUID": 870919680,
+                    "MappedPosition": {
+                        "x": 0.386059,
+                        "y": 0.5058876
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1203960576,
+                    "MappedPosition": {
+                        "x": 0.9450402,
+                        "y": 0.446105
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -690.0,
+                "y": -30.0
+            },
+            "Name": "museum3-tustan",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "ogliad-nyz",
+            "MediaName": "ogliad-nyz",
+            "EntryYaw": 0.0,
+            "UID": 1461562752,
+            "Elements": [
+                {
+                    "TargetNodeUID": 849927040,
+                    "MappedPosition": {
+                        "x": 0.06434316,
+                        "y": 0.334692
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.6635389,
+                        "y": 0.3564311
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2096193920,
+                    "MappedPosition": {
+                        "x": 0.6246649,
+                        "y": 0.4759963
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1660573568,
+                    "MappedPosition": {
+                        "x": 0.5790884,
+                        "y": 0.5086051
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -360.0,
+                "y": 420.0
+            },
+            "Name": "ogliad-nyz",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "ovechky",
+            "MediaName": "ovechky",
+            "EntryYaw": 0.0,
+            "UID": -1141275520,
+            "Elements": [
+                {
+                    "TargetNodeUID": -249042176,
+                    "MappedPosition": {
+                        "x": 0.2171582,
+                        "y": 0.4216485
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -103835392,
+                    "MappedPosition": {
+                        "x": 0.1394102,
+                        "y": 0.4841485
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -120.0,
+                "y": -30.0
+            },
+            "Name": "ovechky",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "rock1",
+            "MediaName": "rock1",
+            "EntryYaw": 0.0,
+            "UID": 933604736,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1370160000,
+                    "MappedPosition": {
+                        "x": 0.1500021,
+                        "y": 0.7131217
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2096193920,
+                    "MappedPosition": {
+                        "x": 0.04674258,
+                        "y": 0.5533201
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1203960576,
+                    "MappedPosition": {
+                        "x": 0.08634371,
+                        "y": 0.5528798
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.08264098,
+                        "y": 0.42468
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -21313664,
+                    "MappedPosition": {
+                        "x": 0.6361581,
+                        "y": 0.7861491
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -829869312,
+                    "MappedPosition": {
+                        "x": 0.5988954,
+                        "y": 0.7259823
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1867309440,
+                    "MappedPosition": {
+                        "x": 0.5709009,
+                        "y": 0.6638525
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1016126464,
+                    "MappedPosition": {
+                        "x": 0.6878687,
+                        "y": 0.7432153
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -720.0,
+                "y": -780.0
+            },
+            "Name": "rock1",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "sadyba1",
+            "MediaName": "sadyba1",
+            "EntryYaw": 0.0,
+            "UID": 1971044864,
+            "Elements": [
+                {
+                    "TargetNodeUID": 788397952,
+                    "MappedPosition": {
+                        "x": 0.7144772,
+                        "y": 0.5031703
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -120.0,
+                "y": 360.0
+            },
+            "Name": "sadyba1",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "sadyba2",
+            "MediaName": "sadyba2",
+            "EntryYaw": 0.0,
+            "UID": 788397952,
+            "Elements": [
+                {
+                    "TargetNodeUID": 1971044864,
+                    "MappedPosition": {
+                        "x": 0.9383378,
+                        "y": 0.4705616
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.2453083,
+                        "y": 0.2558877
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -240.0,
+                "y": 360.0
+            },
+            "Name": "sadyba2",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "sadyba3",
+            "MediaName": "sadyba3",
+            "EntryYaw": 0.0,
+            "UID": -249042176,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1431689088,
+                    "MappedPosition": {
+                        "x": 0.1313673,
+                        "y": 0.4433877
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1141275520,
+                    "MappedPosition": {
+                        "x": 0.5549598,
+                        "y": 0.5167572
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.8002681,
+                        "y": 0.3781703
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -240.0,
+                "y": 240.0
+            },
+            "Name": "sadyba3",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "SADYBA4",
+            "MediaName": "SADYBA4",
+            "EntryYaw": 0.0,
+            "UID": -1431689088,
+            "Elements": [
+                {
+                    "TargetNodeUID": -249042176,
+                    "MappedPosition": {
+                        "x": 0.2533512,
+                        "y": 0.5412138
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -120.0,
+                "y": 240.0
+            },
+            "Name": "SADYBA4",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "sadyba5",
+            "MediaName": "sadyba5",
+            "EntryYaw": 0.0,
+            "UID": -103835392,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1660573568,
+                    "MappedPosition": {
+                        "x": 0.8766756,
+                        "y": 0.4488224
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 352777600,
+                    "MappedPosition": {
+                        "x": 0.9356568,
+                        "y": 0.4433877
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -249042176,
+                    "MappedPosition": {
+                        "x": 0.0616622,
+                        "y": 0.3428442
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -360.0,
+                "y": -60.0
+            },
+            "Name": "sadyba5",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "sadyba6",
+            "MediaName": "sadyba6",
+            "EntryYaw": 0.0,
+            "UID": 1680631296,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1141275520,
+                    "MappedPosition": {
+                        "x": 0.6756032,
+                        "y": 0.4868659
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -570.0,
+                "y": 300.0
+            },
+            "Name": "sadyba6",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "sadyba7",
+            "MediaName": "sadyba7",
+            "EntryYaw": 0.0,
+            "UID": 1825838080,
+            "Elements": [
+                {
+                    "TargetNodeUID": 352777600,
+                    "MappedPosition": {
+                        "x": 0.2747989,
+                        "y": 0.459692
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -103835392,
+                    "MappedPosition": {
+                        "x": 0.1005362,
+                        "y": 0.5031703
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1141275520,
+                    "MappedPosition": {
+                        "x": 0.1099196,
+                        "y": 0.5792572
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -690.0,
+                "y": 270.0
+            },
+            "Name": "sadyba7",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "sadyba8",
+            "MediaName": "sadyba8",
+            "EntryYaw": 0.0,
+            "UID": 352777600,
+            "Elements": [
+                {
+                    "TargetNodeUID": 1825838080,
+                    "MappedPosition": {
+                        "x": 0.9423593,
+                        "y": 0.4705616
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -240.0,
+                "y": 60.0
+            },
+            "Name": "sadyba8",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "scene",
+            "MediaName": "scene",
+            "EntryYaw": 0.0,
+            "UID": -1867309440,
+            "Elements": [
+                {
+                    "TargetNodeUID": -829869312,
+                    "MappedPosition": {
+                        "x": 0.4034853,
+                        "y": 0.4433877
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.4396783,
+                        "y": 0.3401268
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -360.0,
+                "y": -870.0
+            },
+            "Name": "scene",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "skeli-top",
+            "MediaName": "skeli-top",
+            "EntryYaw": 0.0,
+            "UID": 207570816,
+            "Elements": [
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.06702413,
+                        "y": 0.410779
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2096193920,
+                    "MappedPosition": {
+                        "x": 0.08310992,
+                        "y": 0.5004529
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1370160000,
+                    "MappedPosition": {
+                        "x": 0.1273458,
+                        "y": 0.5656703
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2012516224,
+                    "MappedPosition": {
+                        "x": 0.2100539,
+                        "y": 0.4128973
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2012516224,
+                    "MappedPosition": {
+                        "x": 0.6401643,
+                        "y": 0.5210651
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -330.0,
+                "y": -1020.0
+            },
+            "Name": "skeli-top",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "skeli-top2",
+            "MediaName": "skeli-top2",
+            "EntryYaw": 0.0,
+            "UID": -829869312,
+            "Elements": [
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.1970509,
+                        "y": 0.2939311
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 207570816,
+                    "MappedPosition": {
+                        "x": 0.230563,
+                        "y": 0.4488224
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1867309440,
+                    "MappedPosition": {
+                        "x": 0.6863271,
+                        "y": 0.5412138
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -750.0,
+                "y": -960.0
+            },
+            "Name": "skeli-top2",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "skeli3",
+            "MediaName": "skeli3",
+            "EntryYaw": 0.8117467,
+            "UID": -2012516224,
+            "Elements": [
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.3031547,
+                        "y": 0.4284052
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2096193920,
+                    "MappedPosition": {
+                        "x": 0.2993075,
+                        "y": 0.5307572
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1370160000,
+                    "MappedPosition": {
+                        "x": 0.3200821,
+                        "y": 0.6377617
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.9625545,
+                        "y": 0.3725769
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 849927040,
+                    "MappedPosition": {
+                        "x": 0.9102334,
+                        "y": 0.3291548
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 207570816,
+                    "MappedPosition": {
+                        "x": 0.9302385,
+                        "y": 0.4749289
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -1050.0,
+                "y": -930.0
+            },
+            "Name": "skeli3",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "skeli4",
+            "MediaName": "skeli4",
+            "EntryYaw": 0.0,
+            "UID": 849927040,
+            "Elements": [
+                {
+                    "TargetNodeUID": -2096193920,
+                    "MappedPosition": {
+                        "x": 0.9329759,
+                        "y": 0.5194746
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.9168901,
+                        "y": 0.5874094
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1370160000,
+                    "MappedPosition": {
+                        "x": 0.9768633,
+                        "y": 0.6312719
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -21313664,
+                    "MappedPosition": {
+                        "x": 0.01995921,
+                        "y": 0.6257619
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -829869312,
+                    "MappedPosition": {
+                        "x": 0.9982572,
+                        "y": 0.9323779
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 207570816,
+                    "MappedPosition": {
+                        "x": 0.9884231,
+                        "y": 0.7652064
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1867309440,
+                    "MappedPosition": {
+                        "x": 0.4001027,
+                        "y": 0.820108
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -1440.0,
+                "y": -480.0
+            },
+            "Name": "skeli4",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "spivochepole",
+            "MediaName": "spivochepole",
+            "EntryYaw": 0.0,
+            "UID": -1370160000,
+            "Elements": [
+                {
+                    "TargetNodeUID": -168316288,
+                    "MappedPosition": {
+                        "x": 0.2076424,
+                        "y": 0.3369972
+                    },
+                    "IconIndex": 7,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -332719872,
+                    "MappedPosition": {
+                        "x": 0.3150134,
+                        "y": 0.4189311
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 849927040,
+                    "MappedPosition": {
+                        "x": 0.8069705,
+                        "y": 0.3075181
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 207570816,
+                    "MappedPosition": {
+                        "x": 0.8847185,
+                        "y": 0.3428442
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -1350.0,
+                "y": -660.0
+            },
+            "Name": "spivochepole",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "vezha",
+            "MediaName": "vezha",
+            "EntryYaw": 0.0,
+            "UID": -332719872,
+            "Elements": [
+                {
+                    "TargetNodeUID": -1370160000,
+                    "MappedPosition": {
+                        "x": 0.2747989,
+                        "y": 0.5004529
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 207570816,
+                    "MappedPosition": {
+                        "x": 0.9490617,
+                        "y": 0.4488224
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.9758713,
+                        "y": 0.3700181
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 849927040,
+                    "MappedPosition": {
+                        "x": 0.9356568,
+                        "y": 0.3292572
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -810.0,
+                "y": 450.0
+            },
+            "Name": "vezha",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        },
+        {
+            "IsStereo": false,
+            "ResourcePath": "center-tustan",
+            "MediaName": "center-tustan",
+            "EntryYaw": 0.4318707,
+            "UID": -168316288,
+            "Elements": [
+                {
+                    "TargetNodeUID": -103835392,
+                    "MappedPosition": {
+                        "x": 0.6769166,
+                        "y": 0.5427101
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1596953600,
+                    "MappedPosition": {
+                        "x": 0.7106357,
+                        "y": 0.6088904
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -1660573568,
+                    "MappedPosition": {
+                        "x": 0.7605686,
+                        "y": 0.7212285
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": -2096193920,
+                    "MappedPosition": {
+                        "x": 0.7139061,
+                        "y": 0.7508371
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 788397952,
+                    "MappedPosition": {
+                        "x": 0.2212387,
+                        "y": 0.5156222
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1016126464,
+                    "MappedPosition": {
+                        "x": 0.4083852,
+                        "y": 0.5305726
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 207570816,
+                    "MappedPosition": {
+                        "x": 0.48235,
+                        "y": 0.5639769
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 849927040,
+                    "MappedPosition": {
+                        "x": 0.4009881,
+                        "y": 0.4302384
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 933604736,
+                    "MappedPosition": {
+                        "x": 0.4039711,
+                        "y": 0.4912027
+                    },
+                    "IconIndex": 2,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "TargetNodeUID": 1161333248,
+                    "MappedPosition": {
+                        "x": 0.4334817,
+                        "y": 0.5368015
+                    },
+                    "IconIndex": 3,
+                    "$type": "DigitalSalmon.C360.HotspotElement"
+                }
+            ],
+            "NodePosition": {
+                "x": -1350.0,
+                "y": -300.0
+            },
+            "Name": "center-tustan",
+            "$type": "DigitalSalmon.C360.ImageMediaNodeData"
+        }
+    ]
+}
