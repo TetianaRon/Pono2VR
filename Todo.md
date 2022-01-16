@@ -6,15 +6,13 @@ What is frog?
 - Sale it !!!
 
 
-- [ ] Done with putting points
+- [x] Done with putting points
 > 20:00
 
 - [ ] Check Unity 360 video options
 > 23:00
 
-
-
-- [ ] Hot fix dot's low quality in VR
+- [x] Hot fix dot's low quality in VR
 - [ ] Add sun rise/Sun goes down.
 > 02:00
 
