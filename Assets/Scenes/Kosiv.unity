@@ -739,6 +739,11 @@ PrefabInstance:
       objectReference: {fileID: 1435228358}
     - target: {fileID: 3844416354805183883, guid: 982f6fb759baaa34c81940daa74f4e84,
         type: 3}
+      propertyPath: tourData
+      value: 
+      objectReference: {fileID: 4900000, guid: cf20ed5b4d192174bad8c18ea86fdc93, type: 3}
+    - target: {fileID: 3844416354805183883, guid: 982f6fb759baaa34c81940daa74f4e84,
+        type: 3}
       propertyPath: _autoUpdate
       value: 0
       objectReference: {fileID: 0}

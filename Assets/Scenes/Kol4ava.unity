@@ -582,11 +582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: tourData
       value: 
-      objectReference: {fileID: 4900000, guid: da031340229d4fb45b9ec13964e31da8, type: 3}
+      objectReference: {fileID: 4900000, guid: 552b4eae798f95a4d8dea9cdfaa0b390, type: 3}
     - target: {fileID: 8999405879645690958, guid: 7a10df3cd73cc8d4890eec6c742475fc,
         type: 3}
       propertyPath: _autoUpdate
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8999687460804509480, guid: 7a10df3cd73cc8d4890eec6c742475fc,
         type: 3}
@@ -613,7 +613,7 @@ PrefabInstance:
         type: 3}
       propertyPath: targetTransform
       value: 
-      objectReference: {fileID: 1992285231}
+      objectReference: {fileID: 80344872}
     - target: {fileID: 9000112131976448360, guid: 7a10df3cd73cc8d4890eec6c742475fc,
         type: 3}
       propertyPath: sceneName
