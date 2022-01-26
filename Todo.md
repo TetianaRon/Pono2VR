@@ -11,9 +11,9 @@ What is frog?
 
 - [ ] Add videos to the project and cut them under 100 mb
 	- [ ] All videos but with git ignore preprocessed Videos
-	08:10
+	07:20
 	- [ ] Kolo4ava videos under 100 mb
-	08:25 
+	07:35 
 	- [ ] Kosiv videos under 100 mb
 	08:40 
 	- [ ]
