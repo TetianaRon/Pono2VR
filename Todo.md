@@ -6,12 +6,14 @@ What is frog?
 - Sale it !!!
 
 
-- [x] Made and upload bug fixed build.(And Icon updated
+- [x] Made and build bug fixed build.(And Icon updated
 07:00 
+- [x] Upload to the cloud that build.
+07:45	
 
 - [ ] Add videos to the project and cut them under 100 mb
 	- [ ] All videos but with git ignore preprocessed Videos
-	07:20
+	08:00
 	- [ ] Kolo4ava videos under 100 mb
 	07:35 
 	- [ ] Kosiv videos under 100 mb
