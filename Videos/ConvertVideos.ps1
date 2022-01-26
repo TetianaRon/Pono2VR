@@ -19,7 +19,7 @@ foreach($dir in $(ls $srcP)){
 		$outF = $outDirP +"\" +$vidN
 		echo $("         Start " +$inF)
 
-		ffmpeg -i $inF -c:v libx264 -b:v 23M -pix_fmt yuv420p -c:a aac -b:a 192K -ss 03 -fs 90M -loglevel quiet $outF > ""
+		ffmpeg -i $inF -c:v libx264 -b:v 23M -pix_fmt yuv420p -c:a aac -b:a 192K -ss 03 -fs 90M -loglevel quiet -threads 12 $outF
 
 		echo $("         Done" +$outF)
 
