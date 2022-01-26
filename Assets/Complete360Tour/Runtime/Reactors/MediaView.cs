@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Assets.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -43,9 +44,14 @@ namespace DigitalSalmon.C360 {
 			if (videoPlayer != null && audioSource != null && videoPlayer.audioOutputMode == VideoAudioOutputMode.AudioSource) {
 				videoPlayer.SetTargetAudioSource(0, audioSource);
 			}
-		}
 
-		protected void OnEnable() { Complete360Tour.MediaSwitch += C360_MediaSwitch; }
+            VideoReceiver = gameObject.AddComponent<VideoReceiver>();
+
+        }
+
+        public static VideoReceiver VideoReceiver { get; set; }
+
+        protected void OnEnable() { Complete360Tour.MediaSwitch += C360_MediaSwitch; }
 
 		protected void OnDisable() { Complete360Tour.MediaSwitch -= C360_MediaSwitch; }
 

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text;
 using DigitalSalmon.C360;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -12,8 +11,6 @@ namespace Assets.Scripts
     {
         private VideoPlayer _videoPlayer;
 
-        [SerializeField]
-        private bool _playOnAwake = true;
 
         [FormerlySerializedAs("_videoToPlay")]
         [SerializeField]
@@ -23,13 +20,13 @@ namespace Assets.Scripts
         private RenderTexture _renTex;
 
         protected void Awake()
-        {
-
+        { 
             _videoPlayer = GetComponent<VideoPlayer>();
             _mediaView = GetComponent<MediaView>();
 
             // todo: Made without load
             _renTex = Resources.Load<RenderTexture>("VideoTex");
+            _videoPlayer.targetTexture = _renTex;
     
             if (_renTex == null)
             {
@@ -40,29 +37,31 @@ namespace Assets.Scripts
 
         }
 
-        private void Start()
-        {
-            if (_playOnAwake)
-            {
-                PlayVideo(_videoName);
-            }
 
-        }
-
-            //todo  _videoPlayer.Prepare(); add preparation on video scene enbaled
+        //todo  _videoPlayer.Prepare(); add preparation on video scene enbaled
 
         public void PlayVideo(string videoName)
         {
-            _mediaView.SetvideoTex(_renTex);
             var video = Resources.Load<VideoClip>(videoName);
+            PlayVideo(video);
+        }
+
+        public void StopVideo()
+        {
+            _videoPlayer.Stop();
+        }
+
+        public void PlayVideo(VideoClip video)
+        {
+            _mediaView.SetvideoTex(_renTex);
+
             if (video == null)
             {
-                throw new Exception($"Video {videoName} is not loaded");
+                throw new Exception($"Video {video.name} is not loaded");
             }
 
-            _videoPlayer.clip = video; 
+            _videoPlayer.clip = video;
             _videoPlayer.Play();
-
         }
     }
 }

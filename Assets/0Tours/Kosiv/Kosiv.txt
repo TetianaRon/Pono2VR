@@ -510,11 +510,19 @@
                     },
                     "IconIndex": 1,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "VideoPopup",
+                    "MappedPosition": {
+                        "x": 0.5594448,
+                        "y": 0.5368776
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
-                "x": -1050.0,
-                "y": 0.0
+                "x": -1080.0,
+                "y": -60.0
             },
             "Name": "ostry",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"

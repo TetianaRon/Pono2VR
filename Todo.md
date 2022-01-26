@@ -7,7 +7,7 @@ What is frog?
 
 
 - [x] Create test scene with button
-- [ ] Check if video from resources play on Oculus
+- [x] Check if video from resources play on Oculus
 
 - [ ] Create Button Prefab to play Video InTour
 

@@ -159,6 +159,14 @@
                     },
                     "IconIndex": 7,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "VideoPopup-guk",
+                    "MappedPosition": {
+                        "x": 0.9005671,
+                        "y": 0.5435947
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
@@ -285,8 +293,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -780.0,
-                "y": -120.0
+                "x": -810.0,
+                "y": -150.0
             },
             "Name": "koka",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -678,8 +686,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -750.0,
-                "y": -390.0
+                "x": -660.0,
+                "y": -450.0
             },
             "Name": "sheshory",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -711,8 +719,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -870.0,
-                "y": -570.0
+                "x": -930.0,
+                "y": -600.0
             },
             "Name": "skelia-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
