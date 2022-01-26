@@ -2291,8 +2291,8 @@ MonoBehaviour:
   _cardsTitlePhrase:
   - _field: {fileID: 0}
     _fieldTMP: {fileID: 87914335}
-    niceName: "\u041A\u043E\u043B\u0447\u0430\u0432\u0430"
-    _uaText: "\u041A\u043E\u043B\u0447\u0430\u0432\u0430"
+    niceName: "\u041A\u043E\u043B\u043E\u0447\u0430\u0432\u0430"
+    _uaText: "\u041A\u043E\u043B\u043E\u0447\u0430\u0432\u0430"
     _enText: Kolochava
     _plText: "Ko\u0142oczawa"
   - _field: {fileID: 0}

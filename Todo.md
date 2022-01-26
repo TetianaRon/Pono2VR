@@ -6,25 +6,31 @@ What is frog?
 - Sale it !!!
 
 
-- [x] Done with putting points
-> 20:00
+- [x] Made and upload bug fixed build.(And Icon updated
+07:00 
 
-- [ ] Check Unity 360 video options
-> 23:00
+- [ ] Add videos to the project and cut them under 100 mb
+	- [ ] All videos but with git ignore preprocessed Videos
+	08:10
+	- [ ] Kolo4ava videos under 100 mb
+	08:25 
+	- [ ] Kosiv videos under 100 mb
+	08:40 
+	- [ ]
+	09:00 Tustan and split build with Video incide
 
-- [x] Hot fix dot's low quality in VR
-- [ ] Add sun rise/Sun goes down.
-> 02:00
+-[ ]  Made Video Work and write Client.
+10:00 
 
+
+
+
+- [ ] Add sun rise/Sun goes down. on main scene
+11:00 
 - [ ] English/Polish versions of the text
-> 01:00 
+12:00 
 
-What is require coding?
 
-- [ ] Right icons.
-- [ ] English Polish text in the app.
-- [ ] Video Start after the buttons.
-- [ ] Start up screen fix.
 
 What is most importnat think to do?
 
@@ -66,10 +72,11 @@ Fan facts.
 - [x] Test Build myself
 - [x] Fix the issues preventing app from working.
 
+- [x] Done with putting points
+- [x] Check Unity 360 video options
+- [x] Hot fix dot's low quality in VR
 - [x] Fix dot's in Kosiv and Tustan represpectivly
-
 - [x] Stabilty Test using Oculus 
-
 - [x] Upload to the claud.
 
 
