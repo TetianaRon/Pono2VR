@@ -14,10 +14,19 @@ What is frog?
 - [ ] Add videos to the project and cut them under 100 mb
 	- [ ] All videos but with git ignore preprocessed Videos
 	08:00
-	- [ ] Kolo4ava videos under 100 mb
-	07:35 
-	- [ ] Kosiv videos under 100 mb
-	08:40 
+
+	Staring at second 05 and keep file size under `80 mb`.
+	Questions:
+	1. How to limit size ffmpeg
+	2. How to convert 360 video correctly	
+	3. Power shell copy folder structure and create copies
+	- [ ] Kolo4ava mistok videos under 100 mb
+	
+	- [ ] ffmpeg Script to compress all files 
+	08:35 
+
+	- Made it automatic with params
+	
 	- [ ]
 	09:00 Tustan and split build with Video incide
 
