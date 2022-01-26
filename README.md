@@ -8,6 +8,9 @@
 
 ## Video Compression
 
+Just run `.\ConvertVideos.ps1` in `Videos` directory
+
+### FFmpeg command
 Finally command
 
 `ffmpeg -i .\mistok-src.mp4 -c:v libx264 -b:v 23M -pix_fmt yuv420p -c:a aac -b:a 192K -ss 03 -fs 90M mistok-5.mp4`
