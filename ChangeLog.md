@@ -1,5 +1,10 @@
 # Version log
 
+## 1.16 
+
+- Video Button videos are added to the scenes
+- Videos are added to the scenes
+
 ## 1.15 
 
 - Add all videos into split build

@@ -9,13 +9,13 @@ What is frog?
 - [x] Create test scene with button
 - [x] Check if video from resources play on Oculus
 
-- [ ] Create Button Prefab to play Video InTour
+- [x] Create Button Prefab to play Video InTour
 
 
-- [ ]  Made Video Work and write Client.
-12:45
+- [x]  Made Video Work and write Client.
+14:25
 
-- [] Add version Log to the main page
+
 
 - [ ] Add sun rise/Sun goes down. on main scene
 13:00 
@@ -23,8 +23,12 @@ What is frog?
 - [ ] English/Polish versions of the text
 14:00 
 
+
+
 ## Small Fixes
 
+- [ ] Add version Log to the main page
+- [ ] Fix bug with icons in Kosiv
 - [ ] Remove Kol4ava/Resources/MistokLebedi.mp4
 - [ ] Add video prepare 
 
