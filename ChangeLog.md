@@ -4,6 +4,7 @@
 
 - Video Button videos are added to the scenes
 - Videos are added to the scenes
+- Add pro Flare to main Menu
 
 ## 1.15 
 

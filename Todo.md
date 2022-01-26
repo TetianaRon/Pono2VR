@@ -17,7 +17,7 @@ What is frog?
 
 
 
-- [ ] Add sun rise/Sun goes down. on main scene
+- [x] Add sun rise/Sun goes down. on main scene
 13:00 
 
 - [ ] English/Polish versions of the text
