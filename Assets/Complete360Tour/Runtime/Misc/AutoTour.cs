@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Assets.Complete360Tour.Runtime.AutoTour;
+using Assets.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
 

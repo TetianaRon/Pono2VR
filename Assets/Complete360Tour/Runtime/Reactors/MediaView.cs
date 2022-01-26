@@ -110,7 +110,12 @@ namespace DigitalSalmon.C360 {
 			SetStereoscopic(data.IsStereo);
 		}
 
-		private void SwitchMedia(VideoMediaNodeData data) {
+		//todo: Unite Switch media And switch Video
+        public void SetvideoTex(RenderTexture texture) {
+			SetMedia(texture);
+        }
+
+        private void SwitchMedia(VideoMediaNodeData data) {
 			if (data == null || data.VideoClip == null) {
 				ClearView();
 				return;

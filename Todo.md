@@ -6,6 +6,29 @@ What is frog?
 - Sale it !!!
 
 
+- [x] Create test scene with button
+- [ ] Check if video from resources play on Oculus
+
+- [ ] Create Button Prefab to play Video InTour
+
+
+- [ ]  Made Video Work and write Client.
+12:45
+
+- [] Add version Log to the main page
+
+- [ ] Add sun rise/Sun goes down. on main scene
+13:00 
+
+- [ ] English/Polish versions of the text
+14:00 
+
+## Small Fixes
+
+- [ ] Remove Kol4ava/Resources/MistokLebedi.mp4
+- [ ] Add video prepare 
+
+
 - [x] Made and build bug fixed build.(And Icon updated
 07:00 
 - [x] Upload to the cloud that build.
@@ -30,18 +53,6 @@ What is frog?
 	- [ ]
 	09:00 Tustan and split build with Video incide
 
--[ ]  Made Video Work and write Client.
-10:00 
-
-
-
-- [] Add version Log to the main page
-
-
-- [ ] Add sun rise/Sun goes down. on main scene
-11:00 
-- [ ] English/Polish versions of the text
-12:00 
 
 
 

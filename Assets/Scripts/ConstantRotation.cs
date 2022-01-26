@@ -1,17 +1,7 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="ConstantRotation.cs" company="Supyrb">
-//   Copyright (c) 2019 Supyrb. All rights reserved.
-// </copyright>
-// <author>
-//   Johannes Deml
-//   public@deml.io
-// </author>
-// --------------------------------------------------------------------------------------------------------------------
-
-using System;
+﻿using System;
 using UnityEngine;
 
-namespace Supyrb
+namespace Assets.Scripts
 {
 	public class ConstantRotation : MonoBehaviour
 	{

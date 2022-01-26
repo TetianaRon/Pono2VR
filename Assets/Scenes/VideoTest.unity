@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 73280466}
   - component: {fileID: 73280465}
   - component: {fileID: 73280464}
+  - component: {fileID: 73280468}
   m_Layer: 8
   m_Name: MediaView
   m_TagString: Untagged
@@ -447,7 +448,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73280462}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: ef1d54c31c2f71649acd11f9392f2c39, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -468,7 +469,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 1
@@ -487,6 +488,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentScene: 
+--- !u!114 &73280468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73280462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56189669e3ff42ffb9245b8c18eb2d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playOnAwake: 1
+  _videoName: Kolo4ava/mistok
 --- !u!1 &426370430
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,7 +568,7 @@ GameObject:
   - component: {fileID: 786629529}
   - component: {fileID: 786629531}
   - component: {fileID: 786629530}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: MediaSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -868,7 +883,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435228354}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dbb857e44daf2c40b39aa4e41035896, type: 3}
   m_Name: 
@@ -902,7 +917,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435228354}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89306d5ab31436b4bbe3179542d41b08, type: 3}
   m_Name: 
