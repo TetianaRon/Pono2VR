@@ -24,11 +24,14 @@ What is frog?
 
 
 
+- [] Add version Log to the main page
+
 
 - [ ] Add sun rise/Sun goes down. on main scene
 11:00 
 - [ ] English/Polish versions of the text
 12:00 
+
 
 
 
