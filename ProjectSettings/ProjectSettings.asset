@@ -130,7 +130,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.14
+  bundleVersion: 1.15
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -140,6 +140,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 11400000, guid: a70d5fd580cef484891d602c0706ef20, type: 2}
   - {fileID: 5258103777510300414, guid: e669a4decb34a0c479623eca70001902, type: 2}
+  - {fileID: -5112220752542264369, guid: fce0804babf893e4d8c7056e8200c81f, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -167,7 +168,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 20
+  AndroidBundleVersionCode: 21
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
