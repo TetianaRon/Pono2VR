@@ -63,8 +63,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -510.0,
-                "y": -990.0
+                "x": -480.0,
+                "y": -1020.0
             },
             "Name": "amfiteatr",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -337,7 +337,7 @@
             "IsStereo": false,
             "ResourcePath": "mistok-01",
             "MediaName": "mistok-01",
-            "EntryYaw": 0.9232264,
+            "EntryYaw": 0.5791304,
             "UID": 1787926784,
             "Elements": [
                 {
@@ -366,11 +366,19 @@
                     },
                     "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "Kolo4ava\\VideoPopup-mistok",
+                    "MappedPosition": {
+                        "x": 0.5808696,
+                        "y": 0.6345133
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
-                "x": 480.0,
-                "y": -750.0
+                "x": 420.0,
+                "y": -810.0
             },
             "Name": "mistok-01",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -454,7 +462,7 @@
             "IsStereo": false,
             "ResourcePath": "pasika",
             "MediaName": "pasika",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.466087,
             "UID": -120754048,
             "Elements": [
                 {
@@ -465,11 +473,19 @@
                     },
                     "IconIndex": 7,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "Kolo4ava\\VideoPopup-pasika",
+                    "MappedPosition": {
+                        "x": 0.466087,
+                        "y": 0.6522124
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
-                "x": -630.0,
-                "y": -330.0
+                "x": -450.0,
+                "y": -480.0
             },
             "Name": "pasika",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -478,7 +494,7 @@
             "IsStereo": false,
             "ResourcePath": "ptaxy-01",
             "MediaName": "ptaxy-01",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.48,
             "UID": 1061892864,
             "Elements": [
                 {
@@ -489,11 +505,19 @@
                     },
                     "IconIndex": 7,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "Kolo4ava\\VideoPopup-ptaxy",
+                    "MappedPosition": {
+                        "x": 0.4834782,
+                        "y": 0.6309735
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
-                "x": -330.0,
-                "y": -930.0
+                "x": -270.0,
+                "y": -990.0
             },
             "Name": "ptaxy-01",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"

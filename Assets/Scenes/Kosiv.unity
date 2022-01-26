@@ -777,6 +777,11 @@ PrefabInstance:
       propertyPath: complete360Tour
       value: 
       objectReference: {fileID: 3844416355193632071}
+    - target: {fileID: 3844416355132153492, guid: 982f6fb759baaa34c81940daa74f4e84,
+        type: 3}
+      propertyPath: m_WaitForFirstFrame
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3844416355132153494, guid: 982f6fb759baaa34c81940daa74f4e84,
         type: 3}
       propertyPath: targetTransform

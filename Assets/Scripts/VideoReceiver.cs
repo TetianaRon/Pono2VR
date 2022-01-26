@@ -32,13 +32,10 @@ namespace Assets.Scripts
             {
                 throw new Exception("No video texture");
 
-            }
-
-
+            } 
         }
 
-
-        //todo  _videoPlayer.Prepare(); add preparation on video scene enbaled
+         //todo  _videoPlayer.Prepare(); add preparation on video scene enbaled
 
         public void PlayVideo(string videoName)
         {
@@ -53,15 +50,19 @@ namespace Assets.Scripts
 
         public void PlayVideo(VideoClip video)
         {
-            _mediaView.SetvideoTex(_renTex);
 
             if (video == null)
             {
                 throw new Exception($"Video {video.name} is not loaded");
             }
-
             _videoPlayer.clip = video;
-            _videoPlayer.Play();
+
+            _videoPlayer.prepareCompleted += (some) =>
+            {
+                _videoPlayer.Play();
+                _mediaView.SetvideoTex(_renTex);
+            };
+            _videoPlayer.Prepare();
         }
     }
 }

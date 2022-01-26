@@ -144,8 +144,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -1020.0,
-                "y": -390.0
+                "x": -870.0,
+                "y": -570.0
             },
             "Name": "kladka",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -361,7 +361,7 @@
             "IsStereo": false,
             "ResourcePath": "ovechky",
             "MediaName": "ovechky",
-            "EntryYaw": 0.0,
+            "EntryYaw": 1.0,
             "UID": -1141275520,
             "Elements": [
                 {
@@ -381,11 +381,19 @@
                     },
                     "IconIndex": 3,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "Tustan\\VideoPopup-ovechky",
+                    "MappedPosition": {
+                        "x": 0.573913,
+                        "y": 0.5141593
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
-                "x": -120.0,
-                "y": -30.0
+                "x": -60.0,
+                "y": -180.0
             },
             "Name": "ovechky",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -636,8 +644,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -360.0,
-                "y": -60.0
+                "x": -240.0,
+                "y": -300.0
             },
             "Name": "sadyba5",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -1215,7 +1223,7 @@
                 }
             ],
             "NodePosition": {
-                "x": -1350.0,
+                "x": -1470.0,
                 "y": -300.0
             },
             "Name": "center-tustan",

@@ -139,7 +139,7 @@
             "IsStereo": false,
             "ResourcePath": "guk2",
             "MediaName": "guk2",
-            "EntryYaw": 0.8993915,
+            "EntryYaw": 0.3894583,
             "UID": -875643648,
             "Elements": [
                 {
@@ -161,10 +161,10 @@
                     "$type": "DigitalSalmon.C360.HotspotElement"
                 },
                 {
-                    "PrefabPath": "VideoPopup-guk",
+                    "PrefabPath": "Kosiv\\VideoPopup-guk",
                     "MappedPosition": {
-                        "x": 0.9005671,
-                        "y": 0.5435947
+                        "x": 0.3923865,
+                        "y": 0.7377415
                     },
                     "$type": "DigitalSalmon.C360.PrefabElement"
                 }
@@ -203,8 +203,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -360.0,
-                "y": 420.0
+                "x": -330.0,
+                "y": 390.0
             },
             "Name": "institute",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -237,7 +237,7 @@
             ],
             "NodePosition": {
                 "x": -330.0,
-                "y": 150.0
+                "y": 60.0
             },
             "Name": "institute2",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -383,8 +383,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -540.0,
-                "y": -300.0
+                "x": -360.0,
+                "y": -600.0
             },
             "Name": "mykolai-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -554,8 +554,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -150.0,
-                "y": -30.0
+                "x": -240.0,
+                "y": -180.0
             },
             "Name": "pereprava",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -683,11 +683,19 @@
                     },
                     "IconIndex": 2,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "Kosiv\\VideoPopup-sheshory",
+                    "MappedPosition": {
+                        "x": 0.0,
+                        "y": 0.6931649
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
-                "x": -660.0,
-                "y": -450.0
+                "x": -750.0,
+                "y": -510.0
             },
             "Name": "sheshory",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -719,8 +727,8 @@
                 }
             ],
             "NodePosition": {
-                "x": -930.0,
-                "y": -600.0
+                "x": -840.0,
+                "y": -690.0
             },
             "Name": "skelia-dron",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -729,7 +737,7 @@
             "IsStereo": false,
             "ResourcePath": "valylo-in",
             "MediaName": "valylo-in",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.5095168,
             "UID": -1601677568,
             "Elements": [
                 {
@@ -740,11 +748,19 @@
                     },
                     "IconIndex": 3,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "Kosiv\\VideoPopup-valylo",
+                    "MappedPosition": {
+                        "x": 0.5095168,
+                        "y": 0.6872214
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
-                "x": -150.0,
-                "y": -750.0
+                "x": -240.0,
+                "y": -780.0
             },
             "Name": "valylo-in",
             "$type": "DigitalSalmon.C360.ImageMediaNodeData"
@@ -822,7 +838,7 @@
             "IsStereo": false,
             "ResourcePath": "gonchar-01",
             "MediaName": "gonchar-01",
-            "EntryYaw": 0.0,
+            "EntryYaw": 0.8257686,
             "UID": -1260877312,
             "Elements": [
                 {
@@ -833,6 +849,14 @@
                     },
                     "IconIndex": 3,
                     "$type": "DigitalSalmon.C360.HotspotElement"
+                },
+                {
+                    "PrefabPath": "Kosiv\\VideoPopup-gonchar",
+                    "MappedPosition": {
+                        "x": 0.8286969,
+                        "y": 0.8744428
+                    },
+                    "$type": "DigitalSalmon.C360.PrefabElement"
                 }
             ],
             "NodePosition": {
