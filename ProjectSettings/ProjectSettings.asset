@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: ComanG
-  productName: Pono2VR
+  companyName: 3rdi
+  productName: p2vr
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -158,7 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.comanG.Pono2VR
+    Android: com.trirdi.ptovr
     Standalone: unity.OSVR.OSVRSamples
     Tizen: com.unity3d.vrstandardassets
     iPhone: com.unity3d.vrstandardassets
